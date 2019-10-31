@@ -62,8 +62,8 @@ margin-top:30px;
 
 .container {
 background: #FFF;
-/* max-width: 940px;
-min-width: 540px; */
+max-width: 940px;
+/* min-width: 540px; */
 padding: 0px 30px 50px 30px;
 border-left: 1px solid #eee;
 border-right: 1px solid #eee;
