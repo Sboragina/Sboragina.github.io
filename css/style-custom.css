@@ -17,7 +17,7 @@ font-weight:400;}
 
 body {
 margin: 0 auto;
-background: #e4ecfc;
+background: #FFF;
 margin-top: 0;
 font-family: "Muli", sans-serif;
 color: #3b3f45;
@@ -61,7 +61,7 @@ margin-top:30px;
 }
 
 .container {
-background: #FFF;
+background: #f6f9fe;
 max-width: 940px;
 /* min-width: 540px; */
 padding: 0px 30px 50px 30px;
