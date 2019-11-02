@@ -32,8 +32,9 @@ color: #1245A8;
 }
 
 h1 {
-background: none;
-border-bottom: none;
+background: #1245A8;
+color: #FFF;
+border-bottom: #89a3d4;
 padding: 10px 10px 10px 0px;
 margin-bottom: 10px;
 }
