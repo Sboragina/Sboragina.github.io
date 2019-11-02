@@ -86,6 +86,7 @@ padding-bottom: 10px;}
 
 legend {
 font-size: 120%;
+line-height: 40px;
 margin-top: 10px;
 margin-bottom: 20px;
 	padding-top: 10px;
@@ -673,79 +674,20 @@ font-size: 175%;}
 }
 
 
+/**********************
+YouTube responsive code
+**********************/
 
-/*  --------------------------------------------------
-Online readiness page specific styles
--------------------------------------------------- */
-
-
-#online-readiness .container-fluid {
-border-left: 1px solid #eee;
-border-right: 1px solid #eee;
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
-
-#online-readiness .container {
-border-left: 1px solid #eee;
-border-right: 1px solid #eee;
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
-
-
-#online-readiness .container {
-border-top: none;
-}
-
-
-#online-readiness .container {
-border-top: none;
-}
-
-
-#online-readiness h2 span {
-background-color: #FFD54F;
-padding: 5px;
-line-height: 1.2em;
-}
-
-#online-readiness h4 span {
-  background-color: #212121;
-  color: #FFFFFF;
-  padding: 5px;
-}
-
-#online-readiness h3 {
-font-family: "Muli", sans-serif;
-font-weight: 900;
-border-bottom: 2px dotted #FFD54F; 
-}
-
-
-#online-readiness hr {
-border-top: 5px dotted #FFD54F;
-
-}
-
-
-#online-readiness th{
-background-color: #212121;
-color: #FFFFFF;
-}
-
-#online-readiness .black-section {
-background: #212121;
-margin: 15px 0px 30px 0px;
-padding: 10px 15px;
-color: #f6f6f6;}
-.black-section .copyright a {
-color: #FFF;}
-.black-section h2, .black-section h3, .black-section h4, .black-section h5 {
-color: #f6f6f6;}
-
-#online-readiness .yellow-section {
-background: #FFD54F;
-margin: 15px 0px 30px 0px;
-padding: 10px 15px;
-color: #212121;}
-.yellow-section .copyright a {
-color: #212121;}
-.yellow-section h2, .yellow-section h3, .yellow-section h4, .yellow-section h5 {
-color: #212121;}
