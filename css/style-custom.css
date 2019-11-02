@@ -84,6 +84,12 @@ font-size: 120%;
 padding-top: 10px;
 padding-bottom: 10px;}
 
+a {
+color: #092354;
+	font-style: bold;
+text-decoration: underline;
+}
+
 .recap, .story{
 margin-top: 20px;
 margin-bottom: 20px;
