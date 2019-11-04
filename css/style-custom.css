@@ -105,19 +105,6 @@ margin-bottom: 20px;
   padding: 20px;
 }
 
-div.recap h3, div.story h3 { 
-margin-top: 0px;
-color: #0d337e;
-}
-
-div.recap p, div.story p { 
-margin-bottom: 0px;
-}
-
-div.recap strong, div.story strong { 
-color: #092354;
-}
-
 .recap{
 border: 2px solid #89a3d4;
   background: #e1e7f4;
@@ -125,9 +112,17 @@ margin-left:20px;
 margin-right: 20px;
 }
 
-.story{
-border: 2px solid #ECB64E;
-  background: #fbf0da;
+div.recap h3 { 
+margin-top: 0px;
+color: #0d337e;
+}
+
+div.recap p { 
+margin-bottom: 0px;
+}
+
+div.recap strong { 
+color: #092354;
 }
 
 .xbar{
