@@ -15,7 +15,8 @@ function getScore(){
 }
 
 function revealFeedback(){
-  $("div").removeClass("sr-only");
+  $("div.feedback-info").removeClass("sr-only");
+if(getScore()>=2) $("div.success").removeClass("sr-only");
  $("input[type='radio']").prop("disabled", true);
   $("button").html("Reload the page to take the quiz again").prop("disabled", true);
 };
