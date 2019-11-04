@@ -97,31 +97,43 @@ margin-bottom: 20px;
 padding-bottom: 10px;}	
 }
 
-.recap {
-margin-top: 20px;
-margin-bottom: 20px;
-	margin-left:20px;
-margin-right: 20px;
-  border-radius: 25px;
-  border: 2px solid #89a3d4;
-  padding: 20px;
-  background: #e1e7f4;
-
+a {
+color: #092354;
+	font-style: bold;
+text-decoration: underline;
 }
 
-div.recap h3 { 
+.recap, .story{
+margin-top: 20px;
+margin-bottom: 20px;
+  border-radius: 25px;
+  border: 2px solid #FFF;
+  padding: 20px;
+}
+
+div.recap h3, div.story h3 { 
 margin-top: 0px;
-	margin-left:20px;
 color: #0d337e;
 }
 
-div.recap p { 
+div.recap p, div.story p { 
 margin-bottom: 0px;
-	margin-left:20px;
 }
 
-div.recap strong { 
+div.recap strong, div.story strong { 
 color: #092354;
+}
+
+.recap{
+border: 2px solid #89a3d4;
+  background: #e1e7f4;
+margin-left:20px;
+margin-right: 20px;
+}
+
+.story{
+border: 2px solid #ECB64E;
+  background: #fbf0da;
 }
 
 .xbar{
@@ -134,24 +146,6 @@ ul {
 
 .schedule ul {
   font-size: 85%;
-}
-
-a:link, a:hover {
-color: #0000EE;
-	font-style: bold;
-text-decoration: underline;
-}
-
-a:visited {
-color: #551A8B;
-	font-style: bold;
-text-decoration: underline;
-}
-
-a:active {
-color: #EE0000;
-	font-style: bold;
-text-decoration: underline;
 }
 
 /* --------------------------------------------------
@@ -701,6 +695,3 @@ YouTube responsive code
 	width: 100%;
 	height: 100%;
 }
-
-
-
