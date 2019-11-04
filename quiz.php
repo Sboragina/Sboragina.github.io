@@ -32,7 +32,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
-<form action="grade.php" method="post" id="quiz">
+<form action="grade.php?qtest=HTML" method="post" id="quiz">
 
 
 <ol>
