@@ -97,12 +97,6 @@ margin-bottom: 20px;
 padding-bottom: 10px;}	
 }
 
-a {
-color: #092354;
-	font-style: bold;
-text-decoration: underline;
-}
-
 .recap, .story{
 margin-top: 20px;
 margin-bottom: 20px;
@@ -694,4 +688,23 @@ YouTube responsive code
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+
+a:link, a:hover {
+color: #0000EE;
+	font-style: bold;
+text-decoration: underline;
+}
+
+a:visited {
+color: #551A8B;
+	font-style: bold;
+text-decoration: underline;
+}
+
+a:active {
+color: #EE0000;
+	font-style: bold;
+text-decoration: underline;
 }
