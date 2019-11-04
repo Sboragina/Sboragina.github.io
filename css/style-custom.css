@@ -142,6 +142,24 @@ ul {
   font-size: 85%;
 }
 
+a:link, a:hover {
+color: #0000EE;
+	font-style: bold;
+text-decoration: underline;
+}
+
+a:visited {
+color: #551A8B;
+	font-style: bold;
+text-decoration: underline;
+}
+
+a:active {
+color: #EE0000;
+	font-style: bold;
+text-decoration: underline;
+}
+
 /* --------------------------------------------------
 Sections
 -------------------------------------------------- */
@@ -691,20 +709,4 @@ YouTube responsive code
 }
 
 
-a:link, a:hover {
-color: #0000EE;
-	font-style: bold;
-text-decoration: underline;
-}
 
-a:visited {
-color: #551A8B;
-	font-style: bold;
-text-decoration: underline;
-}
-
-a:active {
-color: #EE0000;
-	font-style: bold;
-text-decoration: underline;
-}
