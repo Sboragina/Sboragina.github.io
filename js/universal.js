@@ -20,19 +20,19 @@ $(document).ready(function() {
     console.log(mSelectAnswer);
 
     if (JSON.stringify(mSelectChoice) === JSON.stringify(mSelectAnswer)) {
-      $('.feedback-correct', mSelect).removeClass('sr-only').fadeOut(0).fadeIn(200);
+      $('.feedback-correct', mSelect).removeClass('sr-only');
       $('.feedback-incorrect', mSelect).addClass('sr-only');
       $('.feedback-noselection', mSelect).addClass('sr-only');
       $("input[type='checkbox']", mSelect).prop("disabled", true);
   } else if (mSelectChoice.length === 0) {
-      $('.feedback-noselection', mSelect).removeClass('sr-only').fadeOut(0).fadeIn(200);
+      $('.feedback-noselection', mSelect).removeClass('sr-only');
       $('.feedback-incorrect', mSelect).addClass('sr-only');
   } else {
       if (mSelectAttempt <= 2) {
-        $('.feedback-incorrect', mSelect).removeClass('sr-only').fadeOut(0).fadeIn(200);
+        $('.feedback-incorrect', mSelect).removeClass('sr-only');
         $('.feedback-noselection', mSelect).addClass('sr-only');
     } else {
-        $('.feedback-incorrect2', mSelect).removeClass('sr-only').fadeOut(0).fadeIn(200);
+        $('.feedback-incorrect2', mSelect).removeClass('sr-only');
         $('.feedback-incorrect2', mSelect).html("Sorry that was incorrect. The correct responses are " + mSelectAnswer + ".");
         $('.feedback-incorrect', mSelect).addClass('sr-only');
         $('.feedback-noselection', mSelect).addClass('sr-only');
@@ -71,11 +71,11 @@ $(document).ready(function() {
         var selected = $("input[type='radio']:checked", mChoice).val();
         var correct = $(mChoice).data('answer');
         if (selected == correct) {
-            $('.feedback-correct', mChoice).removeClass('sr-only').fadeOut(0).fadeIn(200);
-            $('.feedback-incorrect', mChoice).addClass('sr-only');
+            $('.feedback-correct', mChoice).removeClass('sr-only');
+$('.feedback-incorrect', mChoice).addClass('sr-only');
             $("input[type='radio']", mChoice).prop("disabled", true);
         } else {
-            $('.feedback-incorrect', mChoice).removeClass('sr-only').fadeOut(0).fadeIn(200);
+            $('.feedback-incorrect', mChoice).removeClass('sr-only');
             $('.feedback-correct', mChoice).addClass('sr-only');
         }
     });
