@@ -60,7 +60,9 @@ margin-bottom: 15px;
 }
 
 h4 {
-margin-top:30px;
+  font-size: 105%;
+  margin-top: 20px;
+margin-bottom: 5px;
 }
 
 .container {
@@ -136,10 +138,13 @@ line-height: 30px;
 margin-top: 10px;
 margin-bottom: 20px;
 	padding-top: 10px;
-padding-bottom: 10px;}	
-}
+padding-bottom: 10px;
+}	
 
-a {
+a.list-group-item-action:hover h4 {
+  text-decoration: underline;
+}
+/*a {
 color: #092354;
 	font-style: bold;
 text-decoration: underline;
@@ -151,7 +156,7 @@ color:#578AD6;
 
 .bg-primary{
  background-color:#578AD6;
-}
+}*/
 
 .recap, .story{
 margin-top: 20px;
