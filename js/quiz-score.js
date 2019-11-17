@@ -1,4 +1,4 @@
-var answers = ["a","a","b","b"], 
+var answers = ["a","a","b","b","c","c","a","c","a","c"], 
     tot = answers.length;
 
 function getCheckedValue( radioName ){
@@ -14,14 +14,20 @@ function getScore(){
   return score;
 }
 
+function pass(){
+  var passFail = 0;
+      if((getCheckedValue("q"+0)===answers[0])&&(getCheckedValue("q"+6)===answers[6])) passFail = 1; 
+  return passFail;
+}
+
 function revealFeedback(){
   $("div.feedback-info").removeClass("sr-only");
-if(getScore()>=2) $("div.success").removeClass("sr-only");
+if(pass()>0) $("div.success").removeClass("sr-only");
  $("input[type='radio']").prop("disabled", true);
   $("button").html("Reload the page to take the quiz again").prop("disabled", true);
 };
 
 function returnScore(){
-  if(getScore()>=2) {alert("You passed! Your score is "+ getScore() +"/"+ tot);}
-  else {alert("Review the feedback and try again. Your score is "+ getScore() +"/"+ tot);}
+  if(pass()>0) {alert("You passed! Review the feedback and click on the link at the bottom of the page to access your badge. Your score is "+ getScore() +"/"+ tot);}
+  else {alert("Review the feedback and reload the page to try again. Your score is "+ getScore() +"/"+ tot);}
 }

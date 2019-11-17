@@ -1,21 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="css/custom.css">
-<link rel="stylesheet" href="css/style-custom.css">			
-		
-<title>Final Quiz</title>
-</head>
-<body>
-    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
-    <nav aria-label="Page navigation" class="d-none d-md-flex navbar navbar-expand-sm justify-content-center fixed-top bg-dark navbar-dark"
-      style="background-color: #ffffff;">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/style-custom.css" />
+
+    <title>Final Quiz</title>
+  </head>
+  <body>
+    <a class="sr-only sr-only-focusable" href="#content"
+      >Skip to main content</a
+    >
+    <nav
+      aria-label="Page navigation"
+      class="d-none d-md-flex navbar navbar-expand-sm justify-content-center fixed-top bg-dark navbar-dark"
+      style="background-color: #ffffff;"
+    >
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Guide</a>
@@ -40,8 +53,11 @@
         </li>
       </ul>
     </nav>
-    <nav aria-label="Mobile page navigation" class="d-flex d-md-none navbar-expand justify-content-center fixed-top bg-dark navbar-dark"
-      style="background-color: #ffffff;">
+    <nav
+      aria-label="Mobile page navigation"
+      class="d-flex d-md-none navbar-expand justify-content-center fixed-top bg-dark navbar-dark"
+      style="background-color: #ffffff;"
+    >
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Guide</a>
@@ -60,154 +76,506 @@
         </li>
       </ul>
     </nav>
-    <div class="jumbotron jumbotron-fluid" style="background:#578AD6; margin-bottom:0px;  padding:20px 0px 0px 0px;">
-      <div class="container diabetes" style="padding: 0px 30px 0px 0px; border:none">
+    <div
+      class="jumbotron jumbotron-fluid"
+      style="background:#578AD6; margin-bottom:0px;  padding:20px 0px 0px 0px;"
+    >
+      <div
+        class="container diabetes"
+        style="padding: 0px 30px 0px 0px; border:none"
+      >
         <div class="row">
           <div class="col-sm-12" style="padding: 75px 0px 30px 70px;">
             <div class="d-circle-outer"></div>
             <div class="d-circle-inner"></div>
-      <h1><span class="t1d-header">Type 1 Diabetes:</span> <br />Final Quiz</h1>
-</div>
-</div>
-</div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12">
+            <h1>
+              <span class="t1d-header">Type 1 Diabetes:</span> <br />Final Quiz
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="interpolated" id="content">
+            <ol>
+              <li>
+                <fieldset>
+                  <legend>People with type 1 diabetes</legend>
+                  <div class="radio">
+                    <label for="q1-a">
+                      <input type="radio" name="q0" id="q1-a" value="a" /> a.
+                      must take insulin for the rest of their lives. Otherwise,
+                      they will die.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q1-b">
+                      <input type="radio" name="q0" id="q1-b" value="b" /> b.
+                      may take pills and/or insulin to manage their blood sugar
+                      levels; some may be able to reverse it by improving their
+                      diet and activity levels.
+                    </label>
+                  </div>
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option a is correct. The treatment of diabetes
+                      depends on whether a person has type 1 diabetes or type 2
+                      diabetes. People with type 1 diabetes must inject insulin
+                      into their bodies multiple times a day to manage their
+                      blood sugar levels. Their bodies do not produce sufficient
+                      insulin for them to survive. Without injecting insulin,
+                      they will die. Those with type 2 diabetes may take pills
+                      and/or insulin to manage their blood sugar levels; some
+                      may be able to reverse it by improving their diet and
+                      activity levels.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
 
-<div class="interpolated" id="content">
-<ol>
-<li>
-      <fieldset>
-        <legend>People with type 1 diabetes </legend>
-        <div class="radio">
-          <label for="q1-a">
-            <input type="radio" name="q0" id="q1-a" value="a" /> a. must take insulin for the rest of their lives. Otherwise, they will die. </label>
-        </div>
-        <div class="radio">
-          <label for="q1-b"> 
-            <input type="radio" name="q0"  id="q1-b" value="b" /> b. may take pills and/or insulin to manage their blood sugar levels; some may be able to reverse it by improving their diet and activity levels. </label>
-        </div>     
-<div class="feedback-info alert alert-info sr-only">
-<p>Feedback: Option a is correct. The treatment of diabetes depends on whether a person has type 1 diabetes or type 2 diabetes. People with type 1 diabetes must inject insulin into their bodies multiple times a day to manage their blood sugar levels. Their bodies do not produce sufficient insulin for them to survive. Without injecting insulin, they will die. Those with type 2 diabetes may take pills and/or insulin to manage their blood sugar levels; some may be able to reverse it by improving their diet and activity levels.</p>
-</div>   
-      </fieldset>
-</li>
+              <li>
+                <fieldset>
+                  <legend>
+                    Pam is at a wedding. She has type 1 diabetes and has been
+                    following Dr. Bernstein's low-carb diet, but decides to eat
+                    the food provided and have a piece of wedding cake. In front
+                    of the wedding guests, an aunt squeals at her, "You know you
+                    shouldn't be eating that!" Pam is obviously upset. What is
+                    the best response to the aunt you could say to support Pam?
+                  </legend>
+                  <div class="radio">
+                    <label for="q2-a">
+                      <input type="radio" name="q1" id="q2-a" value="a" /> a.
+                      It's OK. She knows how to cover it with insulin.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q2-b">
+                      <input type="radio" name="q1" id="q2-b" value="b" /> b.
+                      She's probably just going to take a bite. Leave her alone.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q2-c">
+                      <input type="radio" name="q1" id="q2-c" value="c" /> c.
+                      You're fatter than her! Put your own cake back.
+                    </label>
+                  </div>
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option a is best. It shows you respect Pam's
+                      ability to take care of herself and that the other person
+                      needs to drop the topic. Option b makes the assumption
+                      that Pam shouldn't have as much cake as everyone else is
+                      having. Only Pam has the right to decide what she should
+                      have. Option c is just rude and will likely escalate the
+                      situation.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
 
-<li>
-      <fieldset>
-        <legend>Pam is at a wedding. She has type 1 diabetes and has been following Dr. Bernstein's low-carb diet, but decides to eat the food provided and have a piece of wedding cake. In front of the wedding guests, an aunt squeals at her, "You know you shouldn't be eating that!" Pam is obviously upset. What is the best response to the aunt you could say to support Pam? </legend>
-        <div class="radio">
-          <label for="q2-a">
-            <input type="radio" name="q1" id="q2-a" value="a" /> a. It's OK. She knows how to cover it with insulin. </label>
-        </div>
-        <div class="radio">
-          <label for="q2-b"> 
-            <input type="radio" name="q1"  id="q2-b" value="b" /> b. She's probably just going to take a bite. Leave her alone. </label>
-        </div>
-        <div class="radio">
-          <label for="q2-c">
-            <input type="radio" name="q1"  id="q2-c" value="c" />  c. You're fatter than her! Put your own cake back. </label>
-        </div>
-        <div class="feedback-info alert alert-info sr-only">
-<p>Feedback: Option a is best. It shows you respect Pam's ability to take care of herself and that the other person needs to drop the topic. Option b makes the assumption that Pam shouldn't have as much cake as everyone else is having. Only Pam has the right to decide what she should have. Option c is just rude and will likely escalate the situation.</p>
-</div> 
-      </fieldset>
-</li>
+              <li>
+                <fieldset>
+                  <legend>
+                    You have two friends with type 1 diabetes, Rana and Jess.
+                    Rana is trying a new whole-foods plant-based diet to deal
+                    with her stage 3 kidney disease. When you mention this to
+                    your friend Jess, she insists that the keto diet is best for
+                    those with type 1 diabetes and says that she has achieved
+                    excellent blood sugar control since starting. What do you
+                    do?
+                  </legend>
+                  <div class="radio">
+                    <label for="q3-a">
+                      <input type="radio" name="q2" id="q3-a" value="a" /> a.
+                      Advise Rana to abandon her new diet and try keto instead.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q3-b">
+                      <input type="radio" name="q2" id="q3-b" value="b" /> b.
+                      Mention Jess's success to Rana, but don't push it. Rana
+                      may have good reasons for not choosing keto.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q3-c">
+                      <input type="radio" name="q2" id="q3-c" value="c" /> c.
+                      Tell Jess she doesn't know what she's talking about. Rana
+                      has obviously researched much more since she now has to
+                      deal with a complication from type 1 diabetes.
+                    </label>
+                  </div>
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option b is best. Different diets may work best
+                      for different people. Sharing information may be helpful
+                      if you present it as an option to consider and not a cure
+                      or solution.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
 
-<li>
-      <fieldset>
-        <legend>You have two friends with type 1 diabetes, Rana and Jess. Rana is trying a new whole-foods plant-based diet to deal with her stage 3 kidney disease. When you mention this to your friend Jess, she insists that the keto diet is best for those with type 1 diabetes and says that she has achieved excellent blood sugar control since starting. What do you do?</legend>
-        <div class="radio">
-          <label for="q3-a">
-            <input type="radio" name="q2" id="q3-a" value="a" /> a. Advise Rana to abandon her new diet and try keto instead. </label>
-        </div>
-        <div class="radio">
-          <label for="q3-b"> 
-            <input type="radio" name="q2"  id="q3-b" value="b" /> b. Mention Jess's success to Rana, but don't push it. Rana may have good reasons for not choosing keto. </label>
-        </div>
-        <div class="radio">
-          <label for="q3-c">
-            <input type="radio" name="q2"  id="q3-c" value="c" /> c. Tell Jess she doesn't know what she's talking about. Rana has obviously researched much more since she now has to deal with a complication from type 1 diabetes. </label>
-        </div>
-                <div class="feedback-info alert alert-info sr-only">
-<p>Feedback: Option b is best. Different diets may work best for different people. Sharing information may be helpful if you present it as an option to consider and not a cure or solution.</p>
-</div> 
-      </fieldset>
-</li>
+              <li>
+                <fieldset>
+                  <legend>
+                    After dancing and drinking all night long, Sarah, who has
+                    type 1 diabetes, staggers across the room, collapses in a
+                    chair, and goes to sleep. What should you do?
+                  </legend>
+                  <div class="radio">
+                    <label for="q4-a">
+                      <input type="radio" name="q3" id="q4-a" value="a" /> a.
+                      Ignore her. She's drunk and she'll sleep it off.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q4-b">
+                      <input type="radio" name="q3" id="q4-b" value="b" /> b.
+                      You suspect she may have low blood sugar, so you bring her
+                      orange juice and her glucose meter, wake her up and tell
+                      her to test her blood sugar and drink the juice if she has
+                      low blood sugar.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q4-c">
+                      <input type="radio" name="q3" id="q4-c" value="c" /> c.
+                      You suspect she has low blood sugar, so you give her an
+                      injection of glucagon.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q4-d">
+                      <input type="radio" name="q3" id="q4-d" value="d" /> d.
+                      You suspect she has high blood sugar, so you give her an
+                      injection of glucagon.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q4-e">
+                      <input type="radio" name="q3" id="q4-e" value="e" /> e.
+                      You suspect she has low blood sugar, so you give her an
+                      injection of insulin.</label
+                    >
+                  </div>
+                  <div class="radio">
+                    <label for="q4-f">
+                      <input type="radio" name="q3" id="q4-f" value="f" /> f.
+                      You suspect she has high blood sugar, so you give her an
+                      injection of insulin.</label
+                    >
+                  </div>
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option b is correct. Sarah has been drinking and
+                      dancing. Both activities typically lower blood sugar, so
+                      she likely has low blood sugar. Glucagon is not effective
+                      when someone has been drinking (the liver is busy
+                      processing the alcohol), and insulin will only make the
+                      situation worse. The best option is to bring her orange
+                      juice and her meter so she can confirm her blood glucose
+                      level and treat her low blood sugar herself. If she won't
+                      wake up or is unresponsive or combative, call 911 for
+                      assistance.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
 
-<li>
-      <fieldset>
-        <legend>After dancing and drinking all night long, Sarah, who has type 1 diabetes, staggers across the room, collapses in a chair, and goes to sleep. What should you do?</legend>
-        <div class="radio">
-          <label for="q4-a">
-            <input type="radio" name="q3" id="q4-a" value="a" /> a. Ignore her. She's drunk and she'll sleep it off. </label>
+              <li>
+                <fieldset>
+                  <legend>
+                    Greg has been sick with a stomach flu, so he hasn't been
+                    eating. He hasn't been taking his insulin, either, because
+                    he's been worried about dropping low. He has started
+                    complaining that he hurts, and he's comiting every 10
+                    minutes. What should you do?
+                  </legend>
+                  <div class="radio">
+                    <label for="q5-a">
+                      <input type="radio" name="q4" id="q5-a" value="a" /> a.
+                      Bring him insulin and give him fluids.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q5-b">
+                      <input type="radio" name="q4" id="q5-b" value="b" /> b.
+                      Give him juice.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q5-c">
+                      <input type="radio" name="q4" id="q5-c" value="c" /> c.
+                      Have him test for ketones. If high, bring him to the ER.
+                    </label>
+                  </div>
+
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option c is correct. If ketones are present and
+                      high, take him to the ER. He is likely in DKA and needs
+                      immediate medical care to maek sure he gets the
+                      electrolytes he needs and the insulin he needs at an
+                      appropriate rate.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
+
+              <li>
+                <fieldset>
+                  <legend>
+                    Ricardo's brother Pablo admits that he only takes his
+                    insulin when he feels really horrible. What is a good
+                    response for Ricardo?
+                  </legend>
+                  <div class="radio">
+                    <label for="q6-a">
+                      <input type="radio" name="q5" id="q6-a" value="a" /> a.
+                      You've had this disease for 20 years! Haven't you figured
+                      it out, yet?
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q6-b">
+                      <input type="radio" name="q5" id="q6-b" value="b" /> b.
+                      Take him to an amputation clinic to see the consequence of
+                      not taking care of himself.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q6-c">
+                      <input type="radio" name="q5" id="q6-c" value="c" /> c.
+                      Encourage him to see a therapist who specializes in
+                      chronic illnesses and mental health.
+                    </label>
+                  </div>
+
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option c is correct. If ketones are present and
+                      high, take him to the ER. He is likely in DKA and needs
+                      immediate medical care to maek sure he gets the
+                      electrolytes he needs and the insulin he needs at an
+                      appropriate rate.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
+              <li>
+                <fieldset>
+                  <legend>
+                    Soraya, who has type 1 diabetes, starts to cry and panic and
+                    says she can't see. What's the first thing you should do?
+                  </legend>
+                  <div class="radio">
+                    <label for="q7-a">
+                      <input type="radio" name="q6" id="q7-a" value="a" /> a.
+                      Bring her her blood sugar meter and some juice.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q7-b">
+                      <input type="radio" name="q6" id="q7-b" value="b" /> b.
+                      Bring her her blood sugar meter and some insulin.
+                    </label>
+                  </div>
+
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option a is correct. The emotional reaction and
+                      the loss of sight are likely due to low blood sugar. Her
+                      body is directing glucose away from the eyes to support
+                      the core body functions.
+                    </p>
+                  </div>
+                </fieldset>
+              <hr />
+              </li>
+              <li>
+                <fieldset>
+                  <legend>
+                    Your friend Jasmin has type 1 diabetes and is unconscious on
+                    the floor. In which of the following situations should you give her insulin?
+                  </legend>
+                  <div class="radio">
+                    <label for="q8-a">
+                      <input type="radio" name="q7" id="q8-a" value="a" /> a.
+                      Her cgm shows that her blood sugar is HIGH.
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label for="q8-b">
+                      <input type="radio" name="q7" id="q8-b" value="b" /> b.
+                      Her cgm shows her blood sugar is LOW.
+                    </label>
+                  </div>
+
+                  <div class="radio">
+                    <label for="q8-c">
+                      <input type="radio" name="q7" id="q8-c" value="c" /> c.
+                      Neither of these scenarios.
+                    </label>
+                  </div>
+
+                  <div class="feedback-info alert alert-info sr-only">
+                    <p>
+                      Feedback: Option c is correct. Even if you know her blood
+                      sugar is high, you likely don't know why she's unconscious
+                      and what is an appropriate dose of insulin to give to
+                      bring her blood sugar back down safely. Call 911 instead.
+                    </p>
+                  </div>
+                </fieldset>
+                <hr />
+              </li>
+              <li>
+                  <fieldset>
+                    <legend>
+                      Your sister tells you that your neice Olivia's teacher has sent home a message that Olivia is leaving class to use the bathroom at least once an hour. Your sister is planning to bring Olivia to the doctor to get her tested for a UTI. What is another test you should suggest she request?
+                    </legend>
+                    <div class="radio">
+                      <label for="q9-a">
+                        <input type="radio" name="q8" id="q9-a" value="a" /> a.
+                        A blood sugar test (e.g., a glucose tolerance test, urine glucose test, or blood glucose test)
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label for="q9-b">
+                        <input type="radio" name="q8" id="q9-b" value="b" /> b.
+                        An allergy test
+                      </label>
+                    </div>
+  
+                    <div class="radio">
+                      <label for="q9-c">
+                        <input type="radio" name="q8" id="q9-c" value="c" /> c.
+                        A thyroid function test
+                      </label>
+                    </div>
+  
+                    <div class="feedback-info alert alert-info sr-only">
+                      <p>
+                        Feedback: Option a is correct. A symptom of high blood sugar (i.e., diabetes) is frequent urination. The test is cheap and easy, so it would be good to request.
+                      </p>
+                    </div>
+                  </fieldset>
+                  <hr />
+                </li>
+                <li>
+                    <fieldset>
+                      <legend>
+                        Michelle is baking cookies and realized she needs vanilla extract, but there's none in the house. She is about to ask Vince to quickly drive to the store and back to get her some more when she hears his cgm make a low blood sugar alarm, which means his blood sugar is 3.8 mmol/L or lower (really low). What should she do?
+                      </legend>
+                      <div class="radio">
+                        <label for="q10-a">
+                          <input type="radio" name="q9" id="q10-a" value="a" /> a.
+                          Ask him to go get the vanilla extract immediately. He can deal with his blood sugar issues afterwards.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label for="q10-b">
+                          <input type="radio" name="q9" id="q10-b" value="b" /> b.
+                          Hand him a candy bar and tell him to eat it to raise his blood sugar, and then go pick up the vanilla extract from the store.
+                        </label>
+                      </div>
+    
+                      <div class="radio">
+                        <label for="q10-c">
+                          <input type="radio" name="q9" id="q10-c" value="c" /> c.
+                          Realize his blood sugar is too low for him to drive in the next 45 minutes. Michelle goes to the store herself.
+                        </label>
+                      </div>
+    
+                      <div class="feedback-info alert alert-info sr-only">
+                        <p>
+                          Feedback: Option c is correct. A blood sugar level below 4.0 mmol/L means Vince needs to treat him blood sugar immediately, and he shouldn't be driving for the next 45 minutes
+                        </p>
+                      </div>
+                    </fieldset>
+                  </li>
+            </ol>
+            <div class="text-center">
+              <button
+                onclick="returnScore();revealFeedback()"
+                type="submit"
+                class="btn btn-primary btn-lg"
+                style="background:#1245A8; color:#FFF; border:#1245A8"
+              >
+                View Results
+              </button>
+              <p id="fb-msg"></p>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid sr-only success">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p>You have passed the quiz!</p>
+                  <p>
+                    <a href="success.html" target="blank"
+                      >Access your badge and share your results on social
+                      media</a
+                    >.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="feedback-info sr-only">
+              <nav aria-label="Page navigation">
+                <ul class="pagination d-flex justify-content-between">
+                  <li class="page-item">
+                    <a class="page-link" href="index.html"
+                      >Return to the Main page</a
+                    >
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="quiz.html">Reload this page</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <!--/form-->
         </div>
-        <div class="radio">
-          <label for="q3-b"> 
-            <input type="radio" name="q3"  id="q4-b" value="b" /> b. You suspect she may have low blood sugar, so you bring her orange juice and her glucose meter, wake her up and tell her to test her blood sugar and drink the juice if she has low blood sugar. </label>
-        </div>
-        <div class="radio">
-          <label for="q3-c">
-            <input type="radio" name="q3"  id="q4-c" value="c" /> c. You suspect she has low blood sugar, so you give her an injection of glucagon. </label>
-        </div>
-        <div class="radio">
-          <label for="q3-d">
-            <input type="radio" name="q3"  id="q4-d" value="d" /> d. You suspect she has high blood sugar, so you give her an injection of glucagon. </label>
-        </div>
-        <div class="radio">
-          <label for="q3-c">
-            <input type="radio" name="q3"  id="q4-e" value="c" /> c. You suspect she has low blood sugar, so you give her an injection of insulin.</label>
-        </div>
-        <div class="radio">
-          <label for="q3-d">
-            <input type="radio" name="q3"  id="q4-f" value="d" /> d. You suspect she has high blood sugar, so you give her an injection of insulin.</label>
-        </div>
-                <div class="feedback-info alert alert-info sr-only">
-<p>Feedback: Option b is correct. Sarah has been drinking and dancing. Both activities typically lower blood sugar, so she likely has low blood sugar. Glucagon is not effective when someone has been drinking (the liver is busy processing the alcohol), and insulin will only make the situation worse. The best option is to bring her orange juice and her meter so she can confirm her blood glucose level and treat her low blood sugar herself. If she won't wake up or is unresponsive or combative, call 911 for assistance.</p>
-</div> 
-      </fieldset>
-</li>
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+      <p class="text-center">
+        For technical support or questions, email:
+        <a href="mailto:t1dsocialnetwork@gmail.com"
+          >t1dsocialnetwork@gmail.com</a
+        >
+      </p>
+    </div>
 
-</ol>
-<div class="text-center">
-<button onclick="returnScore();revealFeedback()" type="submit" class="btn btn-primary btn-lg" style="background:#1245A8; color:#FFF; border:#1245A8">View Results</button>
-	<p id="fb-msg"></p>
-   </div>
-
-<div class="jumbotron jumbotron-fluid sr-only success"> 
-
-<p>You have passed the quiz! </p>
-<p><a href="success.html" target="blank">Access your badge and share your results on social media</a>. </p>
-</div>
-<div class="feedback-info sr-only">
-<nav aria-label="Page navigation">
-  <ul class="pagination d-flex justify-content-between">
-    <li class="page-item"><a class="page-link" href="index.html">Return to the Main page</a></li>
-    <li class="page-item"><a class="page-link" href="quiz.html">Reload this page</a></li>
-  </ul>
-</nav>
-</div>
-</div>
-    <!--/form-->
-  </div>
-
-  </div>
-</div>
-<div class="jumbotron jumbotron-fluid">
-      <p  class="text-center">For technical support or questions, email: <a href="mailto:t1dsocialnetwork@gmail.com">t1dsocialnetwork@gmail.com</a></p>
-</div>
-
-</div>
-
-
-</div>
-
-<!-- Optional JavaScript --> 
-<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-<script src="js/quiz-score.js"></script>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/quiz-score.js"></script>
+  </body>
 </html>
