@@ -112,5 +112,29 @@ $(document).ready(function() {
     });
 });
 
+/***************************
+****************************
+Short Answer
+****************************
+***************************/
 
+$(document).ready(() => {
+    $('.saSubmit').on('click', event => {
+     
+      var $saCont = $(event.currentTarget).closest('.shortAnswer');
+       var $response = $('#answerbox', $saCont).val();
+      if ($response === "") {
+        $('.noresponse', $saCont).removeClass('sr-only');
+        $('.user', $saCont).addClass('sr-only');
+        $('.feedback', $saCont).addClass('sr-only');
+      } else {
+        $('.noresponse', $saCont).addClass('sr-only');
+        $('.user', $saCont).removeClass('sr-only');
+        $('.user', $saCont).html("<strong>Your Answer</strong><br> " + $response);
+        $('.feedback', $saCont).removeClass('sr-only');
+        $('.tohide', $saCont).addClass('sr-only');
+      }
+    });
+  });
+  
 

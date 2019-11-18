@@ -416,7 +416,7 @@
               height="315"
               src="https://www.youtube.com/embed/XVmNrjKDyDU"
               allowfullscreen
-              ></iframe>
+            ></iframe>
           </div>
           <p class="img-caption">
             SportsCenterJSA. “Arizona's impact rookie Domi playing with diabetes
@@ -431,7 +431,7 @@
             the training is more time-consuming, and typically takes about 2
             years.
           </p>
-           
+
           <div class="recap">
             <h3>Key Take-aways</h3>
             <ul>
@@ -492,63 +492,100 @@
         </div>
       </div>
       <div class="interpolated">
-        <form class="mChoice" data-answer="c">
+        <form class="mSelect">
           <!-- Indicate correct answer in data-answer -->
-
           <fieldset>
-            <p>
-              <strong
-                >Dave is at a Halloweeen party and sees his cousin Tim, who has
-                type 1 diabetes and who had a scary hypoglycemic episode a month
-                ago, grab a candy bar treat. Dave considers the following
-                options. Which would be the best choice?</strong
-              >
-            </p>
-
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" value="a" /><span
-                  >a.</span
-                >
-                Quietly take the candy away from Tim and remind him of the
-                hypoclycemic episode and the embarassment it had caused him.
+            <legend>
+              Which of these devices can be used to deliver insulin?
+            </legend>
+            <div class="checkbox">
+              <label for="insulin-a">
+                <input
+                  type="checkbox"
+                  name="insulin-options"
+                  id="devices-a"
+                  value="a"
+                />
+                a. syringe
               </label>
             </div>
-
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" value="b" /><span
-                  >b.</span
-                >
-                Ask Tim if he is sure he wants that since it has a lot of sugar.
+            <div class="checkbox">
+              <label for="insulin-b">
+                <input
+                  type="checkbox"
+                  name="insulin-options"
+                  id="insulin-b"
+                  value="b"
+                />
+                b. pen
               </label>
             </div>
-
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" value="c" /><span
-                  >c.</span
-                >
-                Do nothing. Tim is an adult
+            <div class="checkbox">
+              <label for="insulin-c">
+                <input
+                  type="checkbox"
+                  name="insulin-options"
+                  id="insulin-c"
+                  value="c"
+                />
+                c. pump
               </label>
             </div>
-
+            <div class="checkbox">
+              <label for="insulin-d">
+                <input
+                  type="checkbox"
+                  name="insulin-options"
+                  id="insulin-d"
+                  value="d"
+                />
+                d. meter
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="insulin-e">
+                <input
+                  type="checkbox"
+                  name="insulin-options"
+                  id="insulin-e"
+                  value="e"
+                />
+                e. cgm
+              </label>
+            </div>
+            <!--div class="row">
+  <div class="col-sm-3"-->
+            <!-- Add correct answers to data-answer, seprated with spaces -->
+            <button
+              class="btn btn-primary mSelectSubmit"
+              style="margin-bottom:20px;"
+              data-answer="a b c"
+            >
+              Check
+            </button>
+            <!--/div>
+  <div class="col-sm-9"-->
             <div class="feedback-correct alert alert-success sr-only">
               <p>
-                <span class="fa fa-check"></span>
-                <strong>Correct!</strong> Option C is best. Tim is an adult who
-                is responsible for his own decisions. He is not making a healthy
-                choice, but neither is anyone else eating treats at the party.
-                As long as Tim accurately tracks how many carbs he eats and
-                gives an appropriate amount of insulin to cover it, hell be ok,
-                from a blood sugar standpoint. Neither taking away Tim's treat
-                nor second-guessing his decision would help Tim make better
-                decisions in the future; instead, they would build resentment
-                and create distance between Tim and Dave.
+                <span class="fa fa-check"></span> <strong>Correct!</strong> A
+                meter is used to check blood sugar levels or ketone levels. A
+                cgm is used to monitor sugar levels.
               </p>
             </div>
             <div class="feedback-incorrect alert alert-danger sr-only">
               <p><span class="fa fa-times"></span> Try again.</p>
+            </div>
+            <div class="feedback-incorrect2 alert alert-info sr-only">
+              <p>
+                <span class="fa fa-times"></span
+                ><strong>Incorrect.</strong> Insulin can be delivered using a
+                syringe, an insulin pen, or an insulin pump. A meter is used to
+                check blood sugar levels or ketone levels. A cgm is used to
+                monitor sugar levels.
+              </p>
+              <!--/div>
+  
+                  </div-->
             </div>
           </fieldset>
         </form>
@@ -650,5 +687,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="js/universal.js"></script>
   </body>
 </html>
