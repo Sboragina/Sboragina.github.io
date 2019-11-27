@@ -21,13 +21,11 @@
     <title>Final Quiz</title>
   </head>
   <body>
-    <a class="sr-only sr-only-focusable" href="#content"
-      >Skip to main content</a
-    >
+    <a class="skip-content" href="#content">Skip to main content</a>
     <nav
       aria-label="Page navigation"
-      class="d-none d-md-flex navbar navbar-expand-sm justify-content-center fixed-top bg-dark navbar-dark"
-      style="background-color: #ffffff;"
+      class="d-none d-md-flex navbar navbar-expand-sm justify-content-center fixed-top navbar-light"
+      style="background-color: #e0e6f7;"
     >
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -55,8 +53,8 @@
     </nav>
     <nav
       aria-label="Mobile page navigation"
-      class="d-flex d-md-none navbar-expand justify-content-center fixed-top bg-dark navbar-dark"
-      style="background-color: #ffffff;"
+      class="d-flex d-md-none navbar-expand justify-content-center fixed-top navbar-light"
+      style="background-color: #e0e6f7;"
     >
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -100,6 +98,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
+          <p class="spacer">Answer the questions below. Select the best answer from the possible choices.</p>
           <div class="interpolated" id="content">
             <ol>
               <li>
@@ -140,42 +139,70 @@
 
               <li>
                 <fieldset>
-                  <legend>
-                    Pam is at a wedding. She has type 1 diabetes and has been
-                    following Dr. Bernstein's low-carb diet, but decides to eat
-                    the food provided and have a piece of wedding cake. In front
-                    of the wedding guests, an aunt squeals at her, "You know you
-                    shouldn't be eating that!" Pam is obviously upset. What is
-                    the best response to the aunt you could say to support Pam?
-                  </legend>
-                  <div class="radio">
-                    <label for="q2-a">
-                      <input type="radio" name="q1" id="q2-a" value="a" /> a.
-                      It's OK. She knows how to cover it with insulin.
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label for="q2-b">
-                      <input type="radio" name="q1" id="q2-b" value="b" /> b.
-                      She's probably just going to take a bite. Leave her alone.
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label for="q2-c">
-                      <input type="radio" name="q1" id="q2-c" value="c" /> c.
-                      You're fatter than her! Put your own cake back.
-                    </label>
-                  </div>
-                  <div class="feedback-info alert alert-info sr-only">
-                    <p>
-                      Feedback: Option a is best. It shows you respect Pam's
-                      ability to take care of herself and that the other person
-                      needs to drop the topic. Option b makes the assumption
-                      that Pam shouldn't have as much cake as everyone else is
-                      having. Only Pam has the right to decide what she should
-                      have. Option c is just rude and will likely escalate the
-                      situation.
-                    </p>
+                  <div class="row">
+                    <div class="col-md-5 order-md-last">
+                      <img
+                        src="media/images/butter-creamed-cake-slice-on-marble-white-table.jpeg"
+                        alt="slice of cake"
+                        style="width: 100%;"
+                      />
+                      <p class="small">
+                        "Butter-creamed cake slice on marble white table" by
+                        <a
+                          href="https://foto.wuestenigel.com/butter-creamed-cake-slice-on-marble-white-table/"
+                          target="_blank"
+                          >Marco Verch</a
+                        >
+                        /
+                        <a
+                          href="https://creativecommons.org/licenses/by/2.0/"
+                          target="_blank"
+                          >CC BY 2.0</a
+                        >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <legend>
+                        Pam is at a wedding. She has type 1 diabetes and has
+                        been following Dr. Bernstein's low-carb diet, but
+                        decides to eat the food provided and have a piece of
+                        wedding cake. In front of the wedding guests, an aunt
+                        squeals at her, "You know you shouldn't be eating that!"
+                        Pam is obviously upset. What is the best response to the
+                        aunt you could say to support Pam?
+                      </legend>
+
+                      <div class="radio">
+                        <label for="q2-a">
+                          <input type="radio" name="q1" id="q2-a" value="a" />
+                          a. It's OK. She knows how to cover it with insulin.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label for="q2-b">
+                          <input type="radio" name="q1" id="q2-b" value="b" />
+                          b. She's probably just going to take a bite. Leave her
+                          alone.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label for="q2-c">
+                          <input type="radio" name="q1" id="q2-c" value="c" />
+                          c. You're fatter than her! Put your own cake back.
+                        </label>
+                      </div>
+                      <div class="feedback-info alert alert-info sr-only">
+                        <p>
+                          Feedback: Option a is best. It shows you respect Pam's
+                          ability to take care of herself and that the other
+                          person needs to drop the topic. Option b makes the
+                          assumption that Pam shouldn't have as much cake as
+                          everyone else is having. Only Pam has the right to
+                          decide what she should have. Option c is just rude and
+                          will likely escalate the situation.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </fieldset>
                 <hr />
@@ -295,40 +322,66 @@
 
               <li>
                 <fieldset>
-                  <legend>
-                    Greg has been sick with a stomach flu, so he hasn't been
-                    eating. He hasn't been taking his insulin, either, because
-                    he's been worried about dropping low. He has started
-                    complaining that he hurts, and he's vomiting every 10
-                    minutes. What should you do?
-                  </legend>
-                  <div class="radio">
-                    <label for="q5-a">
-                      <input type="radio" name="q4" id="q5-a" value="a" /> a.
-                      Bring him insulin and give him fluids.
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label for="q5-b">
-                      <input type="radio" name="q4" id="q5-b" value="b" /> b.
-                      Give him juice.
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label for="q5-c">
-                      <input type="radio" name="q4" id="q5-c" value="c" /> c.
-                      Have him test for ketones. If high, bring him to the ER.
-                    </label>
-                  </div>
+                  <div class="row">
+                    <div class="col-md-5 order-md-last">
+                      <img
+                        src="media/images/sick-Leonid-Mamchenkov.jpg"
+                        alt="sick man"
+                        style="width: 100%;"
+                      />
+                      <p class="small">
+                        "Sick" by
+                        <a
+                          href="https://www.flickr.com/photos/mamchenkov/409745641"
+                          target="_blank"
+                          >Leonid Mamchenkov</a
+                        >
+                        /
+                        <a
+                          href="https://creativecommons.org/licenses/by/2.0/"
+                          target="_blank"
+                          >CC BY 2.0</a
+                        >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <legend>
+                        Greg has been sick with a stomach flu, so he hasn't been
+                        eating. He hasn't been taking his insulin, either,
+                        because he's been worried about dropping low. He has
+                        started complaining that he hurts, and he's vomiting
+                        every 10 minutes. What should you do?
+                      </legend>
+                      <div class="radio">
+                        <label for="q5-a">
+                          <input type="radio" name="q4" id="q5-a" value="a" />
+                          a. Bring him insulin and give him fluids.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label for="q5-b">
+                          <input type="radio" name="q4" id="q5-b" value="b" />
+                          b. Give him juice.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label for="q5-c">
+                          <input type="radio" name="q4" id="q5-c" value="c" />
+                          c. Have him test for ketones. If high, bring him to
+                          the ER.
+                        </label>
+                      </div>
 
-                  <div class="feedback-info alert alert-info sr-only">
-                    <p>
-                      Feedback: Option c is correct. If ketones are present and
-                      high, take him to the ER. He is likely in DKA and needs
-                      immediate medical care to make sure he gets the
-                      electrolytes he needs and the insulin he needs at an
-                      appropriate rate.
-                    </p>
+                      <div class="feedback-info alert alert-info sr-only">
+                        <p>
+                          Feedback: Option c is correct. If ketones are present
+                          and high, take him to the ER. He is likely in DKA and
+                          needs immediate medical care to make sure he gets the
+                          electrolytes he needs and the insulin he needs at an
+                          appropriate rate.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </fieldset>
                 <hr />
@@ -407,38 +460,64 @@
               </li>
               <li>
                 <fieldset>
-                  <legend>
-                    Your friend Jasmin has type 1 diabetes and is unconscious on
-                    the floor. In which of the following situations should you
-                    give her insulin?
-                  </legend>
-                  <div class="radio">
-                    <label for="q8-a">
-                      <input type="radio" name="q7" id="q8-a" value="a" /> a.
-                      Her CGM shows that her blood sugar is HIGH.
-                    </label>
-                  </div>
-                  <div class="radio">
-                    <label for="q8-b">
-                      <input type="radio" name="q7" id="q8-b" value="b" /> b.
-                      Her CGM shows her blood sugar is LOW.
-                    </label>
-                  </div>
+                  <div class="row">
+                    <div class="col-md-5 order-md-last">
+                      <img
+                        src="media/images/insulin-pens-sriram-bala.jpg"
+                        alt="insulin pens"
+                        style="width: 100%;"
+                      />
+                      <p class="small">
+                        "October 15 2007 day 3 - Insulin pens" by
+                        <a
+                          href="https://www.flickr.com/photos/sriram/1582567853/in/photostream/"
+                          target="_blank"
+                          >sriram bala</a
+                        >
+                        /
+                        <a
+                          href="https://creativecommons.org/licenses/by-nc/2.0/"
+                          target="_blank"
+                          >CC BY-NC 2.0</a
+                        >
+                      </p>
+                    </div>
+                    <div class="col-md-6">
+                      <legend>
+                        Your friend Jasmin has type 1 diabetes and is
+                        unconscious on the floor. In which of the following
+                        situations should you give her insulin?
+                      </legend>
+                      <div class="radio">
+                        <label for="q8-a">
+                          <input type="radio" name="q7" id="q8-a" value="a" />
+                          a. Her CGM shows that her blood sugar is HIGH.
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label for="q8-b">
+                          <input type="radio" name="q7" id="q8-b" value="b" />
+                          b. Her CGM shows her blood sugar is LOW.
+                        </label>
+                      </div>
 
-                  <div class="radio">
-                    <label for="q8-c">
-                      <input type="radio" name="q7" id="q8-c" value="c" /> c.
-                      Neither of these scenarios.
-                    </label>
-                  </div>
+                      <div class="radio">
+                        <label for="q8-c">
+                          <input type="radio" name="q7" id="q8-c" value="c" />
+                          c. Neither of these scenarios.
+                        </label>
+                      </div>
 
-                  <div class="feedback-info alert alert-info sr-only">
-                    <p>
-                      Feedback: Option c is correct. Even if you know her blood
-                      sugar is high, you likely don't know why she's unconscious
-                      and what is an appropriate dose of insulin to give to
-                      bring her blood sugar back down safely. Call 911 instead.
-                    </p>
+                      <div class="feedback-info alert alert-info sr-only">
+                        <p>
+                          Feedback: Option c is correct. Even if you know her
+                          blood sugar is high, you likely don't know why she's
+                          unconscious and what is an appropriate dose of insulin
+                          to give to bring her blood sugar back down safely.
+                          Call 911 instead.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </fieldset>
                 <hr />
@@ -485,8 +564,31 @@
               </li>
               <li>
                 <fieldset>
+                    <div class="row">
+                        <div class="col-md-5 order-md-last">
+                          <img
+                            src="media/images/vanilla-extract-bill-holsinger-robinson.jpg"
+                            alt="vanilla extract"
+                            style="width: 100%;"
+                          />
+                          <p class="small">
+                            "Pure vanilla" by
+                            <a
+                              href="https://www.flickr.com/photos/billhr/3190024762"
+                              target="_blank"
+                              >Bill Holsinger-Robinson</a
+                            >
+                            /
+                            <a
+                              href="https://creativecommons.org/licenses/by/2.0/"
+                              target="_blank"
+                              >CC BY 2.0</a
+                            >
+                          </p>
+                        </div>
+                        <div class="col-md-6">
                   <legend>
-                    Michelle is baking cookies and realized she needs vanilla
+                    Michelle is baking cookies and realizes she needs vanilla
                     extract, but there's none in the house. She is about to ask
                     Vince to quickly drive to the store and back to get her some
                     more when she hears his CGM make a low blood sugar alarm,
@@ -524,6 +626,8 @@
                       immediately, and he shouldn't be driving for the next 45
                       minutes
                     </p>
+                    </div>
+                    </div>
                   </div>
                 </fieldset>
               </li>
