@@ -19,8 +19,29 @@
     <link rel="stylesheet" href="css/style-custom.css" />
 
     <title>Final Quiz</title>
+    <meta property="og:url" content="https://sboragina.github.io/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Type 1 Diabetes: Guide for Family and Friends"
+    />
+    <meta
+      property="og:description"
+      content="Supporting those with type 1 diabetes"
+    />
+    <meta
+      property="og:image"
+      content="https://sboragina.github.io/media/images/insulin-total.jpg"
+    />
   </head>
   <body>
+      <div id="fb-root"></div>
+      <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"
+      ></script>
     <a class="skip-content" href="#content">Skip to main content</a>
     <nav
       aria-label="Page navigation"
@@ -644,16 +665,51 @@
               <p id="fb-msg"></p>
             </div>
 
-            <div class="jumbotron jumbotron-fluid sr-only success">
-              <div class="row">
-                <div class="col-sm-12">
-                  <p>You have passed the quiz!</p>
+            <div class="sr-only success">
+              <div class="container">
+              <div class="row" style="padding-top:30px;">
+                <div class="col-sm-3">
+                  <img src="media/images/fireworks.jpg" alt="" width="100%"></div>
+                  <div class="col-sm-9">
+                  <p>You passed the quiz!</p>
                   <p>
-                    <a href="success.html" target="blank"
-                      >Access your badge and share your results on social
-                      media</a
-                    >.
+                      Download your  
+                    <a href="success.html" target="blank">certificate (with notes about what to do in a diabetic emergency)</a> and share your results on social
+                      media using the buttons below.
                   </p>
+                  <div class="">
+                  <div class="">
+                      <a
+                        href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                        class="twitter-share-button"
+                        data-size="large"
+                        data-text="I passed the Type 1 Diabetes quiz! I know the difference between type 1 and type 2 diabetes. I know what to do in a diabetic emergency."
+                        data-url="https://sboragina.github.io/"
+                        data-hashtags="T1D,type1diabetes"
+                        data-lang="en"
+                        data-show-count="false"
+                        >Tweet</a
+                      >
+                    </div>
+                    <div class="">
+                    <div
+                      class="fb-share-button"
+                      data-href="https://sboragina.github.io/"
+                      data-layout="button"
+                      data-size="large"
+                    >
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsboragina.github.io%2F&amp;src=sdkpreparse"
+                        class="fb-xfbml-parse-ignore"
+                        >Share</a
+                      >
+                      
+                    </div>
+                  
+                    </div>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>
@@ -662,7 +718,7 @@
                 <ul class="pagination d-flex justify-content-between">
                   <li class="page-item">
                     <a class="page-link" href="index.html"
-                      >Return to the Main page</a
+                      >Return to the Guide</a
                     >
                   </li>
                   <li class="page-item">
@@ -704,5 +760,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/quiz-score.js"></script>
+    <script
+    async
+    src="https://platform.twitter.com/widgets.js"
+    charset="utf-8"
+  ></script>
   </body>
 </html>
