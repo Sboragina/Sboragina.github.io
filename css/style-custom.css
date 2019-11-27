@@ -236,7 +236,7 @@ ul {
 
 /* --------------------------------------------------
 Sections
--------------------------------------------------- */
+
 .black-section {
 background: #000;
 margin: 15px -30px 10px -30px;
@@ -393,7 +393,7 @@ line-height: 15px;
 margin: 0;
 color: #501B61;}
 
-
+-------------------------------------------------- */
 /*	--------------------------------------------------
 Header
 -------------------------------------------------- */
@@ -462,18 +462,31 @@ padding: 20px 20px 20px 20px;
 box-shadow: 0 0 15px #adadad; }
 
 .person {
-margin: 30px -20px;
-background: #FFF;           
-padding: 20px 60px 20px 60px;
--webkit-box-shadow: 0 0 15px #adadad;
--ms-box-shadow: 0 0 15px #adadad;
--moz-box-shadow: 0 0 15px #adadad;
--o-box-shadow: 0 0 15px #adadad;
-box-shadow: 0 0 15px #adadad; 
-border-radius: 5px 150px 5px 150px;
--moz-border-radius: 5px 150px 5px 150px;
--webkit-border-radius: 5px 150px 5px 150px; }
+  margin: 30px 0;
+  background: #FFF;           
+  padding: 30px 60px 30px 60px;
+  -webkit-box-shadow: 0 0 15px #adadad;
+  -ms-box-shadow: 0 0 15px #adadad;
+  -moz-box-shadow: 0 0 15px #adadad;
+  -o-box-shadow: 0 0 15px #adadad;
+  box-shadow: 0 0 15px #adadad; 
+  border-radius: 5px 100px 100px 100px;
+  -moz-border-radius: 5px 100px 100px 100px;
+  -webkit-border-radius: 5px 100px 100px 100px; }
 
+  .person-alt {
+    margin: 30px 0;
+    background: #FFF;           
+    padding: 30px 60px 30px 60px;
+    -webkit-box-shadow: 0 0 15px #adadad;
+    -ms-box-shadow: 0 0 15px #adadad;
+    -moz-box-shadow: 0 0 15px #adadad;
+    -o-box-shadow: 0 0 15px #adadad;
+    box-shadow: 0 0 15px #adadad; 
+    border-radius: 100px 5px 100px 100px;
+    -moz-border-radius: 100px 5px 100px 100px;
+    -webkit-border-radius: 100px 5px 100px 100px; }
+  
 .spacer {
 padding: 30px 0;}
 

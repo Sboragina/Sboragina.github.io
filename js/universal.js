@@ -120,7 +120,7 @@ Short Answer
 
 $(document).ready(() => {
     $('.saSubmit').on('click', event => {
-     
+        event.preventDefault();
       var $saCont = $(event.currentTarget).closest('.shortAnswer');
        var $response = $('#answerbox', $saCont).val();
       if ($response === "") {
