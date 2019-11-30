@@ -28,6 +28,6 @@ if(pass()>0) $("div.success").removeClass("sr-only");
 };
 
 function returnScore(){
-  if(pass()>0) {alert("You passed! Review the feedback and click on the link at the bottom of the page to access your badge. Your score is "+ getScore() +"/"+ tot);}
+  if(pass()>0) {alert("You passed! Review the feedback, if you wish, and share your success using the buttons at the bottom of the screen. Your score is "+ getScore() +"/"+ tot);}
   else {alert("Review the feedback and reload the page to try again. Your score is "+ getScore() +"/"+ tot);}
 }
