@@ -1,432 +1,370 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/custom.css" />
-    <link rel="stylesheet" href="css/style-custom.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>1. Basics</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/custom.css" />
+  <link rel="stylesheet" href="css/style-custom.css" />
 
-  <body>
-    <a class="skip-content" href="#content">Skip to main content</a>
-    <nav
-      aria-label="Page navigation"
-      class="d-none d-md-flex navbar navbar-expand-sm justify-content-center fixed-top navbar-light"
-      style="background-color: #e0e6f7;"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Guide</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="basics.html">1. Basics</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mental-health.html">2. Mental Health</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="diet.html">3. Food</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="devices.html">4. Devices</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blood-levels.html">5. Emergencies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="quiz.html">6. Quiz</a>
-        </li>
-      </ul>
-    </nav>
-    <nav
-      aria-label="Mobile page navigation"
-      class="d-flex d-md-none navbar-expand justify-content-center fixed-top navbar-light"
-      style="background-color: #e0e6f7;"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Guide</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="basics.html">1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mental-health.html">2</a>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="diet.html">3</a></li>
-        <li class="nav-item"><a class="nav-link" href="devices.html">4</a></li>
-        <li class="nav-item">
-          <a class="nav-link" href="blood-levels.html">5</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="quiz.html">Quiz</a>
-        </li>
-      </ul>
-    </nav>
-    <div
-      class="jumbotron jumbotron-fluid"
-      style="background:#578AD6; margin-bottom:0px;  padding:20px 0px 0px 0px;"
-    >
-      <div
-        class="container diabetes"
-        style="padding: 0px 30px 0px 0px; border:none"
-      >
-        <div class="row">
-          <div class="col-sm-12" style="padding: 75px 0px 30px 70px;">
-            <div class="d-circle-outer"></div>
-            <div class="d-circle-inner"></div>
-            <div class="circle-num" aria-hidden="true">1</div>
-            <h1>
-              <span class="t1d-header">Type 1 Diabetes:</span> <br /><span
-                class="sr-only"
-                >1. </span
-              >Basics
-            </h1>
-          </div>
+  <title>1. Basics</title>
+</head>
+
+<body>
+  <a class="skip-content" href="#content">Skip to main content</a>
+  <nav aria-label="Page navigation"
+    class="d-none d-md-flex navbar navbar-expand-sm justify-content-center fixed-top navbar-light"
+    style="background-color: #e0e6f7;">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Guide</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="basics.html">1. Basics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mental-health.html">2. Mental Health</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="diet.html">3. Food</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="devices.html">4. Devices</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blood-levels.html">5. Emergencies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quiz.html">6. Quiz</a>
+      </li>
+    </ul>
+  </nav>
+  <nav aria-label="Mobile page navigation"
+    class="d-flex d-md-none navbar-expand justify-content-center fixed-top navbar-light"
+    style="background-color: #e0e6f7;">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Guide</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="basics.html">1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="mental-health.html">2</a>
+      </li>
+      <li class="nav-item"><a class="nav-link" href="diet.html">3</a></li>
+      <li class="nav-item"><a class="nav-link" href="devices.html">4</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="blood-levels.html">5</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="quiz.html">Quiz</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="jumbotron jumbotron-fluid" style="background:#578AD6; margin-bottom:0px;  padding:20px 0px 0px 0px;">
+    <div class="container diabetes" style="padding: 0px 30px 0px 0px; border:none">
+      <div class="row">
+        <div class="col-sm-12" style="padding: 75px 0px 30px 70px;">
+          <div class="d-circle-outer"></div>
+          <div class="d-circle-inner"></div>
+          <div class="circle-num" aria-hidden="true">1</div>
+          <h1>
+            <span class="t1d-header">Type 1 Diabetes:</span> <br /><span class="sr-only">1. </span>Basics
+          </h1>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5 order-md-last">
-          <img
-            src="media/images/t1d-bracelets-bradley-johnson-cropped.jpg"
-            alt="type 1 diabetes medical alert bracelets"
-            style="width:100%; position:relative;  padding-top: 15px; margin-top: 80px;"
-          />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 order-md-last">
+        <img src="media/images/t1d-bracelets-bradley-johnson-cropped.jpg" alt="type 1 diabetes medical alert bracelets"
+          style="width:100%; position:relative;  padding-top: 15px; margin-top: 80px;" />
+        <p class="small">
+          "Diabetes" [cropped] by
+          <a href="https://www.flickr.com/photos/bradlightyear/5736670215" target="blank">Bradley Johnson</a>
+          /
+          <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/" target="blank">CC BY-NC-ND 2.0</a>
+        </p>
+      </div>
+      <div class="col-md-6" id="content">
+        <h2>Objectives</h2>
+        <p>After completing this topic, you will be able to:</p>
+        <ul>
+          <li>
+            Differentiate between type&nbsp;1 diabetes and type&nbsp;2
+            diabetes.
+          </li>
+          <li>
+            Use symptoms of and risk factors for type 1 diabetes to determine
+            who may be at risk of developing it.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10">
+        <h2>Introduction</h2>
+        <p>
+          Diabetes is one of the most talked about diseases in North America.
+          Again and again we hear about how obesity and lifestyle choices are
+          major risk factors for developing diabetes &mdash; except this isn't
+          quite true &mdash; they are major risk factors for developing
+          <strong>type 2</strong> diabetes. The causes of other types of
+          diabetes have nothing to do with obesity or lifestyle choices. And
+          these other types of diabetes are rarely mentioned.
+        </p>
+        <p>
+          In this module, we'll look at Type 1 diabetes. </p>
+          <p>We'll begin with an introduction by actor Victor Garber, who was diagnosed
+          with type 1 diabetes in 1962 when he was 11 years old.
+        </p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-sm-10">
+        <div class="videoWrapper">
+          <!-- Copy & Pasted from YouTube -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/CI8fpk-OKgQ" allowfullscreen></iframe>
+
           <p class="small">
-            "Diabetes" [cropped] by
-            <a
-              href="https://www.flickr.com/photos/bradlightyear/5736670215"
-              target="blank"
-              >Bradley Johnson</a
-            >
-            /
-            <a
-              href="https://creativecommons.org/licenses/by-nc-nd/2.0/"
-              target="blank"
-              >CC BY-NC-ND 2.0</a
-            >
+            Beyond Type 1. “WHAT IS TYPE 1 DIABETES?” Online video clip.
+            YouTube. June 29, 2018. Web.
           </p>
         </div>
-        <div class="col-md-6" id="content">
-          <h2>Objectives</h2>
-          <p>After completing this topic, you will be able to:</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10">
+        <h2>Diabetes</h2>
+        <p>
+          Diabetes is a group of diseases that result in high blood glucose
+          (sugar) levels. Cells in the body need glucose to function. Insulin,
+          a hormone produced in the pancreas, lets the glucose enter the
+          cells. In a person with diabetes, either not enough insulin is
+          produced or the insulin does not work very well (this is called
+          insulin resistance).
+        </p>
+        <p>
+          Approximately 90% of those with diabetes have type 2 diabetes. The
+          rest have type 1 diabetes or diabetes due to other causes that also
+          affect the person's ability to digest food, sometimes called
+          <a href="https://www.unitypoint.org/livewell/article.aspx?id=c384879f-cfd0-42c8-b743-a1333cf09f47"
+            target="blank">type 3c diabetes</a>. These other types of diabetes are not caused by a person's
+          activity level, weight, or age.
+        </p>
+        <h2>Type 2 Diabetes</h2>
+        <p>
+          You probably already know a lot about type 2 diabetes. This is the
+          "diabetes" shown on television ads and in most medical pamphlets.
+          Sometimes the information from these sources can be a bit
+          misleading, though. For example, there are many subtypes of type 2
+          diabetes, and some of them have little connection to obesity and
+          lifestyle choices.
+        </p>
+        <p>
+          Type 2 diabetes occurs when a person's pancreas can't produce enough
+          insulin. In fact, their pancreas may be producing much more insulin
+          than a person without diabetes needs, but their body is not able to
+          use the insulin properly. Not being able to use insulin properly is
+          called insulin resistance. Belly fat is a source of insulin
+          resistance, which is why losing weight can reverse type 2 diabetes.
+        </p>
+        <p>
+          As type 2 diabetes progresses, the high blood sugars damage the
+          pancreas's ability to produce insulin. So, a person with type 2
+          diabetes may need to take insulin even if they are able to lower
+          their insulin resistance.
+        </p>
+
+        <p>
+          Type 2 diabetes typically develops gradually. The first step in
+          managing it is usually through diet changes to help the person lose
+          fat tissue. The person may be prescribed pills or injectable
+          medications that lower insulin resistance and hopefully enable the
+          body to effectively use the insulin the pancreas produces. The final
+          step is to prescribe insulin, to supplement what the pancreas
+          produces.
+        </p>
+        <div class="recap">
+          <h3>Key Take-aways</h3>
           <ul>
             <li>
-              Differentiate between type&nbsp;1 diabetes and type&nbsp;2
+              There are many different kinds of diabetes, but the comments and
+              concerns we hear about "diabetes" usually refer to type 2
               diabetes.
             </li>
             <li>
-              Use symptoms of and risk factors for type 1 diabetes to determine
-              who may be at risk of developing it.
+              Sometimes, type 2 diabetes is due to lifestyle choices such as
+              obesity and inactivity.
             </li>
           </ul>
         </div>
+
+        <h2>Type 1 Diabetes: An Autoimmune Disease</h2>
+        <p>
+          Type 1 diabetes is an autoimmune disease. In autoimmune diseases,
+          the body's immune system mistakenly identifies a healthy part of the
+          body as a foreign invader and destroys it! In the case of type 1
+          diabetes, the body attacks and destroys the insulin-producing cells
+          in the pancreas.
+        </p>
       </div>
-      <div class="row">
-        <div class="col-sm-10">
-          <h2>Introduction</h2>
-          <p>
-            Diabetes is one of the most talked about diseases in North America.
-            Again and again we hear about how obesity and lifestyle choices are
-            major risk factors for developing diabetes &mdash; except this isn't
-            quite true &mdash; they are major risk factors for developing
-            <strong>type 2</strong> diabetes. The causes of other types of
-            diabetes have nothing to do with obesity or lifestyle choices. And
-            these other types of diabetes are rarely mentioned.
-          </p>
-          <p>
-            In this module, we'll look at Type 1 diabetes. Start by watching
-            this short introduction by actor Victor Garber, who was diagnosed
-            with type 1 diabetes in 1962 when he was 11 years old.
-          </p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-sm-10">
+        <div class="videoWrapper">
+          <!-- Copy & Pasted from YouTube -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9tvD2sMl9hI?start=20&end=133"
+            allowfullscreen></iframe>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-10">
-          <div class="videoWrapper">
-            <!-- Copy & Pasted from YouTube -->
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/CI8fpk-OKgQ"
-              allowfullscreen
-            ></iframe>
+    </div>
+    <div class="row">
+      <div class="col-sm-10">
+        <p class="small">
+          Phoenix Children's Hospital. “PCH Type 1 Children - What is
+          Diabetes” Online video clip. YouTube. April 25, 2018. Web.
+        </p>
 
-            <p class="small">
-              Beyond Type 1. “WHAT IS TYPE 1 DIABETES?” Online video clip.
-              YouTube. June 29, 2018. Web.
+        <p>
+          Autoimmune diseases have a genetic component and an environmental
+          trigger.
+        </p>
+        <p>
+          For type 1 diabetes, the autoimmune attack is gradual. Usually, it
+          takes several years for it to progress from antibodies in the
+          bloodstream to elevated blood sugars. However, once blood sugars
+          begin to elevate, it's important to act fast! The person can go into
+          diabetic ketoacidosis (DKA) quickly. And DKA can be deadly (you'll
+          learn more about DKA in
+          <a href="blood-levels.html" target="_self">5. Emergencies</a>) In
+          fact, the speed of the disease progression is one sign that a person
+          has type 1 diabetes and not type 2.
+        </p>
+        <p>
+          Type 1 diabetes can be diagnosed at any age after about 6 months.
+          The younger a person is when diagnosed, the stronger and faster the
+          autoimmune attack tends to be. The most common age for people to be
+          diagnosed with type 1 diabetes is around 14 years old.
+        </p>
+        <div class="card mx-auto" style="max-width: 644px;">
+          <img class="card-img-top"
+            src="media/images/incidence-rates-for-type-1-diabetes-by-age-at-diagnosis-and-sex-United-States-2001-2015.png"
+            alt="graph showing peak age of incidence of type 1 diabetes is 14" />
+          <div class="card-body">
+            <p class="card-text small">
+              "Incidence rates for type 1 diabetes by age at diagnosis and
+              sex, United States, 2001–2015" from Rogers, M. A., Kim, C.,
+              Banerjee, T., & Lee, J. M. (2017).
+              <a href="https://dx.doi.org/10.1186%2Fs12916-017-0958-6" target="blank">Fluctuations in the incidence of
+                type 1 diabetes in the
+                United States from 2001 to 2015: a longitudinal study</a>. <em>BMC medicine, 15</em>(1), 199. /
+              <a href="https://creativecommons.org/licenses/by/4.0/" target="blank">CC BY 4.0</a>
             </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-10">
-          <h2>Diabetes</h2>
-          <p>
-            Diabetes is a group of diseases that result in high blood glucose
-            (sugar) levels. Cells in the body need glucose to function. Insulin,
-            a hormone produced in the pancreas, lets the glucose enter the
-            cells. In a person with diabetes, either not enough insulin is
-            produced or the insulin does not work very well (this is called
-            insulin resistance).
-          </p>
-          <p>
-            Approximately 90% of those with diabetes have type 2 diabetes. The
-            rest have type 1 diabetes or diabetes due to other causes that also
-            affect the person's ability to digest food, sometimes called
-            <a
-              href="https://www.unitypoint.org/livewell/article.aspx?id=c384879f-cfd0-42c8-b743-a1333cf09f47"
-              target="blank"
-              >type 3c diabetes</a
-            >. These other types of diabetes are not caused by a person's
-            activity level, weight, or age.
-          </p>
-          <h2>Type 2 Diabetes</h2>
-          <p>
-            You probably already know a lot about type 2 diabetes. This is the
-            "diabetes" shown on television ads and in most medical pamphlets.
-            Sometimes the information from these sources can be a bit
-            misleading, though. For example, there are many subtypes of type 2
-            diabetes, and some of them have little connection to obesity and
-            lifestyle choices.
-          </p>
-          <p>
-            Type 2 diabetes occurs when a person's pancreas can't produce enough
-            insulin. In fact, their pancreas may be producing much more insulin
-            than a person without diabetes needs, but their body is not able to
-            use the insulin properly. Not being able to use insulin properly is
-            called insulin resistance. Belly fat is a source of insulin
-            resistance, which is why losing weight can reverse type 2 diabetes.
-          </p>
-          <p>
-            As type 2 diabetes progresses, the high blood sugars damage the
-            pancreas's ability to produce insulin. So, a person with type 2
-            diabetes may need to take insulin even if they are able to lower
-            their insulin resistance.
-          </p>
 
-          <p>
-            Type 2 diabetes typically develops gradually. The first step in
-            managing it is usually through diet changes to help the person lose
-            fat tissue. The person may be prescribed pills or injectable
-            medications that lower insulin resistance and hopefully enable the
-            body to effectively use the insulin the pancreas produces. The final
-            step is to prescribe insulin, to supplement what the pancreas
-            produces.
-          </p>
-          <div class="recap">
-            <h3>Key Take-aways</h3>
-            <ul>
-              <li>
-                There are many different kinds of diabetes, but the comments and
-                concerns we hear about "diabetes" usually refer to type 2
-                diabetes.
-              </li>
-              <li>
-                Sometimes, type 2 diabetes is due to lifestyle choices such as
-                obesity and inactivity.
-              </li>
-            </ul>
-          </div>
+        <p>
+          Type 1 diabetes used to be called "juvenile diabetes" because it is
+          often diagnosed in childhood. However, the disease is chronic. It
+          doesn't go away. It doesn't get easier. It doesn't change into a
+          different form of diabetes. Although a person may be diagnosed with
+          type 1 diabetes as a child, they live most of their lives with the
+          disease as an adult.
+        </p>
+        <p>
+          A challenge those who develop the disease as adults face is getting
+          the correct diagnosis. Those diagnosed as adults often have a
+          slower-progressing form of the disease called
+          <a href="https://beyondtype1.org/what-is-lada-diabetes/" target="blank">latent autoimmune diabetes in adults
+            (LADA)</a>
+          A study in Great Britain found that approximately one-third of those
+          who develop type 1 diabetes as adults aged 30 or older are initially
+          misdiagnosed as having type 2 diabetes. They are often initially
+          treated only with medications that lower insulin resistance. Half of
+          those who were misdiagnosed were still misdiagnosed 13 years
+          later<sup>5</sup>. These misdiagnoses can result in years of high
+          blood sugars and damage that leads to unnecessary diabetic
+          complications.
+        </p>
 
-          <h2>Type 1 Diabetes: An Autoimmune Disease</h2>
-          <p>
-            Type 1 diabetes is an autoimmune disease. In autoimmune diseases,
-            the body's immune system mistakenly identifies a healthy part of the
-            body as a foreign invader and destroys it! In the case of type 1
-            diabetes, the body attacks and destroys the insulin-producing cells
-            in the pancreas.
-          </p>
+        <div class="recap">
+          <h3>Key Take-aways</h3>
+          <ul>
+            <li>
+              Type 1 diabetes is an autoimmune disease. This means it has a
+              genetic component and an environmental trigger.
+            </li>
+            <li>
+              Type 1 diabetes can affect anyone, no matter how healthy they
+              are or how old they are.
+            </li>
+          </ul>
         </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-sm-10">
-          <div class="videoWrapper">
-            <!-- Copy & Pasted from YouTube -->
-            <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/9tvD2sMl9hI?start=20&end=133"
-              allowfullscreen
-            ></iframe>
+
+        <h2>Who is at risk of developing Type 1 Diabetes?</h2>
+
+        <p>
+          Type 1 diabetes is rare. The risk of developing type 1 diabetes is
+          about 0.3%.
+        </p>
+        <p>
+          Recall that autoimmune diseases have a genetic component and an
+          environmental trigger. A person with the genes associated with type
+          1 diabetes has less than a 10% chance of actually developing the
+          disease.
+        </p>
+        <p>
+          In type 1 diabetes, the genetic component is a marker on chromosome
+          6. The markers associated with type 1 diabetes are more common among
+          Caucasians than those of African, Chinese, or South American
+          descent.<sup>1</sup>
+        </p>
+        <p>
+          We think the trigger is often a viral illness. Viruses that may
+          trigger type 1 diabetes include German measles, coxsackie, and
+          mumps. People are more likely to contract viral illnesses when it's
+          cold outside. Data show that those who live in northern climates are
+          more likely to develop type 1 diabetes than those who live in
+          southern climates, and more cases of type 1 diabetes are diagnosed
+          in winter than in summer.
+        </p>
+        <div class="card mx-auto" style="max-width: 644px;">
+          <img class="card-img-top" src="media/images/new-t1d-geographic.jpeg"
+            alt="map showing countries with >25 new cases per 100,000: Canada, Scandinavian countries, Great Britain, Saudi Arabia; countries with <2 cases are located in northern South America, central Africa, southeast Asia." />
+          <div class="card-body">
+            <p class="card-text small">
+              "Estimated new cases of type 1 diabetes (&lt;15 years) per
+              100,000 children per year, 2015." from Jakobsen, O. A. J., &
+              Szereday, L. (2018).
+              <a href="https://doi.org/10.1556/030.65.2018.017" target="blank">The “Three Amigos” lurking behind type 1
+                diabetes: hygiene,
+                gut microbiota and viruses</a>.
+              <em>Acta microbiologica et immunologica Hungarica, 65</em>(4),
+              421-438. /
+              <a href="https://creativecommons.org/licenses/by/4.0/" target="blank">CC BY-NC 4.0</a>
+            </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-10">
-          <p class="small">
-            Phoenix Children's Hospital. “PCH Type 1 Children - What is
-            Diabetes” Online video clip. YouTube. April 25, 2018. Web.
-          </p>
 
-          <p>
-            Autoimmune diseases have a genetic component and an environmental
-            trigger.
-          </p>
-          <p>
-            For type 1 diabetes, the autoimmune attack is gradual. Usually, it
-            takes several years for it to progress from antibodies in the
-            bloodstream to elevated blood sugars. However, once blood sugars
-            begin to elevate, it's important to act fast! The person can go into
-            diabetic ketoacidosis (DKA) quickly. And DKA can be deadly (you'll
-            learn more about DKA in
-            <a href="blood-levels.html" target="_self">5. Emergencies</a>) In
-            fact, the speed of the disease progression is one sign that a person
-            has type 1 diabetes and not type 2.
-          </p>
-          <p>
-            Type 1 diabetes can be diagnosed at any age after about 6 months.
-            The younger a person is when diagnosed, the stronger and faster the
-            autoimmune attack tends to be. The most common age for people to be
-            diagnosed with type 1 diabetes is around 14 years old.
-          </p>
-          <div class="card mx-auto" style="max-width: 644px;">
-            <img
-              class="card-img-top"
-              src="media/images/incidence-rates-for-type-1-diabetes-by-age-at-diagnosis-and-sex-United-States-2001-2015.png"
-              alt="graph showing peak age of incidence of type 1 diabetes is 14"
-            />
-            <div class="card-body">
-              <p class="card-text small">
-                "Incidence rates for type 1 diabetes by age at diagnosis and
-                sex, United States, 2001–2015" from Rogers, M. A., Kim, C.,
-                Banerjee, T., & Lee, J. M. (2017).
-                <a
-                  href="https://dx.doi.org/10.1186%2Fs12916-017-0958-6"
-                  target="blank"
-                  >Fluctuations in the incidence of type 1 diabetes in the
-                  United States from 2001 to 2015: a longitudinal study</a
-                >. <em>BMC medicine, 15</em>(1), 199. /
-                <a
-                  href="https://creativecommons.org/licenses/by/4.0/"
-                  target="blank"
-                  >CC BY 4.0</a
-                >
-              </p>
-            </div>
-          </div>
-
-          <p>
-            Type 1 diabetes used to be called "juvenile diabetes" because it is
-            often diagnosed in childhood. However, the disease is chronic. It
-            doesn't go away. It doesn't get easier. It doesn't change into a
-            different form of diabetes. Although a person may be diagnosed with
-            type 1 diabetes as a child, they live most of their lives with the
-            disease as an adult.
-          </p>
-          <p>
-            A challenge those who develop the disease as adults face is getting
-            the correct diagnosis. Those diagnosed as adults often have a
-            slower-progressing form of the disease called
-            <a
-              href="https://beyondtype1.org/what-is-lada-diabetes/"
-              target="blank"
-              >latent autoimmune diabetes in adults (LADA)</a
-            >
-            A study in Great Britain found that approximately one-third of those
-            who develop type 1 diabetes as adults aged 30 or older are initially
-            misdiagnosed as having type 2 diabetes. They are often initially
-            treated only with medications that lower insulin resistance. Half of
-            those who were misdiagnosed were still misdiagnosed 13 years
-            later<sup>5</sup>. These misdiagnoses can result in years of high
-            blood sugars and damage that leads to unnecessary diabetic
-            complications.
-          </p>
-
-          <div class="recap">
-            <h3>Key Take-aways</h3>
-            <ul>
-              <li>
-                Type 1 diabetes is an autoimmune disease. This means it has a
-                genetic component and an environmental trigger.
-              </li>
-              <li>
-                Type 1 diabetes can affect anyone, no matter how healthy they
-                are or how old they are.
-              </li>
-            </ul>
-          </div>
-
-          <h2>Who is at risk of developing Type 1 Diabetes?</h2>
-
-          <p>
-            Type 1 diabetes is rare. The risk of developing type 1 diabetes is
-            about 0.3%.
-          </p>
-          <p>
-            Recall that autoimmune diseases have a genetic component and an
-            environmental trigger. A person with the genes associated with type
-            1 diabetes has less than a 10% chance of actually developing the
-            disease.
-          </p>
-          <p>
-            In type 1 diabetes, the genetic component is a marker on chromosome
-            6. The markers associated with type 1 diabetes are more common among
-            Caucasians than those of African, Chinese, or South American
-            descent.<sup>1</sup>
-          </p>
-          <p>
-            We think the trigger is often a viral illness. Viruses that may
-            trigger type 1 diabetes include German measles, coxsackie, and
-            mumps. People are more likely to contract viral illnesses when it's
-            cold outside. Data show that those who live in northern climates are
-            more likely to develop type 1 diabetes than those who live in
-            southern climates, and more cases of type 1 diabetes are diagnosed
-            in winter than in summer.
-          </p>
-          <div class="card mx-auto" style="max-width: 644px;">
-            <img
-              class="card-img-top"
-              src="media/images/new-t1d-geographic.jpeg"
-              alt="map showing countries with >25 new cases per 100,000: Canada, Scandinavian countries, Great Britain, Saudi Arabia; countries with <2 cases are located in northern South America, central Africa, southeast Asia."
-            />
-            <div class="card-body">
-              <p class="card-text small">
-                "Estimated new cases of type 1 diabetes (&lt;15 years) per
-                100,000 children per year, 2015." from Jakobsen, O. A. J., &
-                Szereday, L. (2018).
-                <a href="https://doi.org/10.1556/030.65.2018.017" target="blank"
-                  >The “Three Amigos” lurking behind type 1 diabetes: hygiene,
-                  gut microbiota and viruses</a
-                >.
-                <em>Acta microbiologica et immunologica Hungarica, 65</em>(4),
-                421-438. /
-                <a
-                  href="https://creativecommons.org/licenses/by/4.0/"
-                  target="blank"
-                  >CC BY-NC 4.0</a
-                >
-              </p>
-            </div>
-          </div>
-
-          <h3>Family History of Type 1 Diabetes</h3>
-          <p>
-            A person is more likely to develop type 1 diabetes if there is a
-            family history of type 1 diabetes. A study of children diagnosed
-            with type 1 diabetes found about 30% had someone with type 1
-            diabetes in their extended family<sup>2</sup>. Data for the US show
-            that about 0.3% of the population has type 1 diabetes, but those
-            with a first-degree relative have about a 5% risk of developing
-            it<sup>3</sup>.
-          </p>
-          <!--p>
+        <h3>Family History of Type 1 Diabetes</h3>
+        <p>
+          A person is more likely to develop type 1 diabetes if there is a
+          family history of type 1 diabetes. A study of children diagnosed
+          with type 1 diabetes found about 30% had someone with type 1
+          diabetes in their extended family<sup>2</sup>. Data for the US show
+          that about 0.3% of the population has type 1 diabetes, but those
+          with a first-degree relative have about a 5% risk of developing
+          it<sup>3</sup>.
+        </p>
+        <!--p>
             Here are some data about the risks of developing type 1 diabetes if
             an immediate family member has it<sup>4</sup>.
           </p>
@@ -453,130 +391,90 @@
             <li>about 5% if a sibling has it, but neither parent has it; or</li>
             <li>about 50% if an identical twin has it.</li>
           </ul-->
-          <h3>Family history of autoimmune diseases</h3>
+        <h3>Family history of autoimmune diseases</h3>
 
-          <p>
-            Autoimmune diseases tend to cluster, both in individuals and in
-            families. Type 1 diabetes is not common, and many people with type 1
-            diabetes are the only ones in their family with the disease.
-            However, their family members often have other autoimmune diseases.
-            <!--A study of children diagnosed with type 1 diabetes found about 22%
+        <p>
+          Autoimmune diseases tend to cluster, both in individuals and in
+          families. Type 1 diabetes is not common, and many people with type 1
+          diabetes are the only ones in their family with the disease.
+          However, their family members often have other autoimmune diseases.
+          <!--A study of children diagnosed with type 1 diabetes found about 22%
           had an immediate family member with an autoimmune disease (vs. 12.9%
           in those without type 1 diabetes) and 72% had someone with an
           autoimmune disease in their extended family (vs. 62% in those
           without type 1 diabetes)<sup>2</sup>.-->
-          </p>
+        </p>
 
-          <p>
-            Autoimmune diseases that may be present in family members of those
-            with type 1 diabetes include the following:<sup>5</sup>
-          </p>
-          <ul>
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/addison-disease"
-                target="blank"
-                >Addison's disease</a
-              >
-              (also known as adrenal insufficiency)
-            </li>
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/quick-facts-hormonal-and-metabolic-disorders/thyroid-gland-disorders/hashimoto-thyroiditis"
-                target="blank"
-                >Hashimoto's thyroiditis</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/hyperthyroidism#v772015"
-                target="blank"
-                >Graves' disease</a
-              >
-            </li>
+        <p>
+          Autoimmune diseases that may be present in family members of those
+          with type 1 diabetes include the following:<sup>5</sup>
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/addison-disease"
+              target="blank">Addison's disease</a>
+            (also known as adrenal insufficiency)
+          </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/quick-facts-hormonal-and-metabolic-disorders/thyroid-gland-disorders/hashimoto-thyroiditis"
+              target="blank">Hashimoto's thyroiditis</a>
+          </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/hyperthyroidism#v772015"
+              target="blank">Graves' disease</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/bone,-joint,-and-muscle-disorders/joint-disorders/ankylosing-spondylitis"
-                target="blank"
-                >ankylosing spondylitis</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/bone,-joint,-and-muscle-disorders/joint-disorders/rheumatoid-arthritis-ra"
-                target="blank"
-                >rheumatoid arthritis</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/bone,-joint,-and-muscle-disorders/joint-disorders/ankylosing-spondylitis"
+              target="blank">ankylosing spondylitis</a>
+          </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/bone,-joint,-and-muscle-disorders/joint-disorders/rheumatoid-arthritis-ra"
+              target="blank">rheumatoid arthritis</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/digestive-disorders/malabsorption/celiac-disease"
-                target="blank"
-                >celiac disease</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/digestive-disorders/malabsorption/celiac-disease"
+              target="blank">celiac disease</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/brain,-spinal-cord,-and-nerve-disorders/multiple-sclerosis-ms-and-related-disorders/multiple-sclerosis-ms"
-                target="blank"
-                >multiple sclerosis</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/brain,-spinal-cord,-and-nerve-disorders/multiple-sclerosis-ms-and-related-disorders/multiple-sclerosis-ms"
+              target="blank">multiple sclerosis</a>
+          </li>
 
-            <li>
-              <a
-                href="https://medlineplus.gov/ency/article/000569.htm"
-                target="blank"
-                >pernicious anemia</a
-              >
-            </li>
+          <li>
+            <a href="https://medlineplus.gov/ency/article/000569.htm" target="blank">pernicious anemia</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/liver-and-gallbladder-disorders/fibrosis-and-cirrhosis-of-the-liver/primary-biliary-cholangitis-pbc"
-                target="blank"
-                >primary biliary cirrhosis</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/liver-and-gallbladder-disorders/fibrosis-and-cirrhosis-of-the-liver/primary-biliary-cholangitis-pbc"
+              target="blank">primary biliary cirrhosis</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/skin-disorders/psoriasis-and-scaling-disorders/psoriasis"
-                target="blank"
-                >psoriasis</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/skin-disorders/psoriasis-and-scaling-disorders/psoriasis"
+              target="blank">psoriasis</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/bone,-joint,-and-muscle-disorders/autoimmune-disorders-of-connective-tissue/systemic-lupus-erythematosus-sle"
-                target="blank"
-                >systemic lupus erythematosus</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/bone,-joint,-and-muscle-disorders/autoimmune-disorders-of-connective-tissue/systemic-lupus-erythematosus-sle"
+              target="blank">systemic lupus erythematosus</a>
+          </li>
 
-            <li>
-              <a
-                href="https://www.merckmanuals.com/en-ca/home/skin-disorders/pigment-disorders/vitiligo"
-                target="blank"
-                >vitiligo</a
-              >
-            </li>
+          <li>
+            <a href="https://www.merckmanuals.com/en-ca/home/skin-disorders/pigment-disorders/vitiligo"
+              target="blank">vitiligo</a>
+          </li>
 
-            <li>
-              <a
-                href="https://rarediseases.org/rare-diseases/granulomatosis-with-polyangiitis/"
-                target="blank"
-                >Granulomatosis with polyangiitis</a
-              >
-              (also known as GPA or Wegener's granulomatosis)
-            </li>
-          </ul>
+          <li>
+            <a href="https://rarediseases.org/rare-diseases/granulomatosis-with-polyangiitis/"
+              target="blank">Granulomatosis with polyangiitis</a>
+            (also known as GPA or Wegener's granulomatosis)
+          </li>
+        </ul>
 
-          <!--div class="person">
+        <!--div class="person">
             <div class="row align-middle">
               <div class="col-sm-3  order-last">
                 <img
@@ -600,337 +498,276 @@
             </div>
           </div-->
 
-          <div class="recap">
-            <h3>Key Take-aways</h3>
-            <ul>
-              <li>
-                Type 1 diabetes is rare. Having the "right" genes for type 1
-                diabetes doesn't mean a person will develop the disease.
-              </li>
-              <li>
-                People with type 1 diabetes often have relatives with type 1
-                diabetes or other autoimmune diseases.
-              </li>
-            </ul>
-          </div>
-          <h2>Did you get all that?</h2>
-          <p>Try a few questions.</p>
-        </div>
-
-        <div class="interpolated">
-          <div class="row">
-            <div class="col-sm-10">
-              <p>
-                You’re waiting at a bus stop with Joshua, who is 55 years old
-                and about 50 pounds (about 23 kg) overweight. As you chat, you
-                learn his family doctor recently diagnosed him with diabetes
-                based on bloodwork done at his last physical. He has started on
-                Metformin (pills), but they don’t seem to be helping his blood
-                sugar levels much, and he’s really tired, so he doesn’t exercise
-                much. He’s also been busy lately helping out his sister, who has
-                lupus.
-              </p>
-              <form class="mSelect">
-                <!-- Indicate correct answer in data-answer -->
-                <fieldset>
-                  <legend>
-                    a. You realize he was likely diagnosed with Type 2 Diabetes.
-                    Why?
-                  </legend>
-                  <div class="checkbox">
-                    <label for="type-2-why-a">
-                      <input
-                        type="checkbox"
-                        name="optionscheckbox"
-                        id="type-2-why-a"
-                        value="a"
-                      />
-                      a. at diagnosis, he had high blood sugar, but was not
-                      hospitalized due to DKA
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label for="type-2-why-b">
-                      <input
-                        type="checkbox"
-                        name="optionscheckbox"
-                        id="type-2-why-b"
-                        value="b"
-                      />
-                      b. he is older
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label for="type-2-why-c">
-                      <input
-                        type="checkbox"
-                        name="optionscheckbox"
-                        id="type-2-why-c"
-                        value="c"
-                      />
-                      c. he is overweight
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label for="type-2-why-d">
-                      <input
-                        type="checkbox"
-                        name="optionscheckbox"
-                        id="type-2-why-d"
-                        value="d"
-                      />
-                      d. he is inactive
-                    </label>
-                  </div>
-                  <div class="checkbox">
-                    <label for="type-2-why-e">
-                      <input
-                        type="checkbox"
-                        name="optionscheckbox"
-                        id="type-2-why-e"
-                        value="e"
-                      />
-                      e. his sister's lupus
-                    </label>
-                  </div>
-                  <!--div class="row">
-  <div class="col-sm-3"-->
-                  <!-- Add correct answers to data-answer, seprated with spaces -->
-                  <button
-                    class="btn btn-primary mSelectSubmit"
-                    style="margin-bottom:20px;"
-                    data-answer="a b c d"
-                  >
-                    Check
-                  </button>
-                  <!--/div>
-  <div class="col-sm-9"-->
-                  <div class="feedback-correct alert alert-success sr-only">
-                    <p>
-                      <span class="fa fa-check"></span>
-                      <strong>Correct!</strong> Joshua has a lot of risk factors
-                      related to type 2 diabetes; of those listed, only the
-                      sister with lupus does not apply.
-                    </p>
-                  </div>
-                  <div class="feedback-incorrect alert alert-danger sr-only">
-                    <p><span class="fa fa-times"></span> Try again.</p>
-                  </div>
-                  <div class="feedback-incorrect2 alert alert-info sr-only">
-                    <p>
-                      <span class="fa fa-times"></span
-                      ><strong>Incorrect.</strong> Joshua has a lot of risk
-                      factors related to type 2 diabetes; of those listed, only
-                      the sister with lupus does not apply.
-                    </p>
-                  </div>
-                </fieldset>
-              </form>
-
-              <form class="mChoice" data-answer="b">
-                <!-- Indicate correct answer in data-answer -->
-
-                <fieldset>
-                  <legend>
-                    b. Is it worth suggesting he request more bloodwork to
-                    confirm he does not have type 1 diabetes?
-                  </legend>
-
-                  <div class="radio">
-                    <label for="t1-or-2-a">
-                      <input
-                        type="radio"
-                        name="t1-or-2"
-                        id="t1-or-2-a"
-                        value="a"
-                      />
-                      a. No, the evidence is pretty clear: he has type 2
-                      diabetes. Mind your own business.
-                    </label>
-                  </div>
-
-                  <div class="radio">
-                    <label for="t1-or-2-b">
-                      <input
-                        type="radio"
-                        name="t1-or-2"
-                        id="t1-or-2-b"
-                        value="b"
-                      />
-                      b. Yes, an immediate relative has an autoimmune disease.
-                      Also, his blood sugars seem to need more help than his
-                      current dose of Metformin is offering.
-                    </label>
-                  </div>
-
-                  <div class="feedback-correct alert alert-success sr-only">
-                    <p>
-                      <span class="fa fa-check"></span>
-                      <strong>Correct!</strong> Option B is better. Joshua does
-                      have a lot of risk factors related to type 2 diabetes.
-                      However, since he also has the family history of
-                      autoimmune disease (i.e., lupus), it is not unreasonable
-                      for him to request additional testing to confirm there are
-                      no antibodies present. Type 1 diabetes would need to be
-                      managed more aggressively, and it could take years for him
-                      and his doctors to sort out a misdiagnosis. In the
-                      meantime, his health could suffer and he might develop
-                      diabetic complications.
-                    </p>
-                  </div>
-                  <div class="feedback-incorrect alert alert-danger sr-only">
-                    <p><span class="fa fa-times"></span> Try again.</p>
-                  </div>
-                </fieldset>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-8">
-          <h2>Personalize It</h2>
-        </div>
-        <div class="col-sm-4">
-          <img
-            class="img-responsive center"
-            src="media/images/terrace.png"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <p>Think about your family history.</p>
+        <div class="recap">
+          <h3>Key Take-aways</h3>
           <ul>
-            <li>Do you have any relatives with an autoimmune disease?</li>
             <li>
-              Can you recall the signs and symptoms of diabetes:
-              <ul>
-                <li>excessive thirst</li>
-                <li>frequent urination</li>
-                <li>extreme hunger</li>
-                <li>weight loss</li>
-                <li>fatigue</li>
-                <li>irritability or other behaviour changes</li>
-                <li>fruity-smelling breath</li>
-                <li>blurred vision</li>
-                <li>yeast infection</li>
-              </ul>
+              Type 1 diabetes is rare. Having the "right" genes for type 1
+              diabetes doesn't mean a person will develop the disease.
+            </li>
+            <li>
+              People with type 1 diabetes often have relatives with type 1
+              diabetes or other autoimmune diseases.
             </li>
           </ul>
+        </div>
+        <h2>Did you get all that?</h2>
+        <p>Try a few questions.</p>
+      </div>
 
-          <div class="references dont-break-out">
-            <h2>References</h2>
-            <ol>
-              <li>
-                Rogers, M. A., Kim, C., Banerjee, T., & Lee, J. M. (2017).
-                Fluctuations in the incidence of type 1 diabetes in the United
-                States from 2001 to 2015: a longitudinal study.
-                <em>BMC medicine, 15</em>(1), 199. [incidence graphs]
-              </li>
-              <li>
-                Alhonen, S., Korhonen, S., Tapanainen, P., Knip, M., & Veijola,
-                R. (2011). Extended family history of diabetes and autoimmune
-                diseases in children with and without type 1 diabetes.
-                <em>Diabetes care, 34</em>(1), 115-117.
-              </li>
-              <li>
-                Smith-Marsh, D.E. (n.d.). Type 1 diabetes risk factors.
-                Endocrine Web. Retrieved from:
-                https://www.endocrineweb.com/conditions/type-1-diabetes/type-1-diabetes-risk-factors
-              </li>
+      <div class="interpolated">
+        <div class="row">
+          <div class="col-sm-10">
+            <p>
+              You’re waiting at a bus stop with Joshua, who is 55 years old
+              and about 50 pounds (about 23 kg) overweight. As you chat, you
+              learn his family doctor recently diagnosed him with diabetes
+              based on bloodwork done at his last physical. He has started on
+              Metformin (pills), but they don’t seem to be helping his blood
+              sugar levels much, and he’s really tired, so he doesn’t exercise
+              much. He’s also been busy lately helping out his sister, who has
+              lupus.
+            </p>
+            <form class="mSelect">
+              <!-- Indicate correct answer in data-answer -->
+              <fieldset>
+                <legend>
+                  a. You realize he was likely diagnosed with Type 2 Diabetes.
+                  Why?
+                </legend>
+                <div class="checkbox">
+                  <label for="type-2-why-a">
+                    <input type="checkbox" name="optionscheckbox" id="type-2-why-a" value="a" />
+                    a. at diagnosis, he had high blood sugar, but was not
+                    hospitalized due to DKA
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="type-2-why-b">
+                    <input type="checkbox" name="optionscheckbox" id="type-2-why-b" value="b" />
+                    b. he is older
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="type-2-why-c">
+                    <input type="checkbox" name="optionscheckbox" id="type-2-why-c" value="c" />
+                    c. he is overweight
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="type-2-why-d">
+                    <input type="checkbox" name="optionscheckbox" id="type-2-why-d" value="d" />
+                    d. he is inactive
+                  </label>
+                </div>
+                <div class="checkbox">
+                  <label for="type-2-why-e">
+                    <input type="checkbox" name="optionscheckbox" id="type-2-why-e" value="e" />
+                    e. his sister's lupus
+                  </label>
+                </div>
+                <!--div class="row">
+  <div class="col-sm-3"-->
+                <!-- Add correct answers to data-answer, seprated with spaces -->
+                <button class="btn btn-primary mSelectSubmit" style="margin-bottom:20px;" data-answer="a b c d">
+                  Check
+                </button>
+                <!--/div>
+  <div class="col-sm-9"-->
+                <div class="feedback-correct alert alert-success sr-only">
+                  <p>
+                    <span class="fa fa-check"></span>
+                    <strong>Correct!</strong> Joshua has a lot of risk factors
+                    related to type 2 diabetes; of those listed, only the
+                    sister with lupus does not apply.
+                  </p>
+                </div>
+                <div class="feedback-incorrect alert alert-danger sr-only">
+                  <p><span class="fa fa-times"></span> Try again.</p>
+                </div>
+                <div class="feedback-incorrect2 alert alert-info sr-only">
+                  <p>
+                    <span class="fa fa-times"></span><strong>Incorrect.</strong> Joshua has a lot of risk
+                    factors related to type 2 diabetes; of those listed, only
+                    the sister with lupus does not apply.
+                  </p>
+                </div>
+              </fieldset>
+            </form>
 
-              <li>
-                Chiang, J. L., Kirkman, M. S., Laffel, L. M., & Peters, A. L.
-                (2014). Type 1 diabetes through the life span: a position
-                statement of the American Diabetes Association.
-                <em>Diabetes care, 37</em>(7), 2034-2054.
-              </li>
-              <li>
-                Dansinger, M. (2019, September 23). Is Diabetes Genetic? The
-                Hereditary Risk of Type 1 Diabetes. Retrieved from
-                https://www.webmd.com/diabetes/diabetes-type-1-genetics#2
-              </li>
-              <li>
-                Cárdenas-Roldán, J., Rojas-Villarraga, A., & Anaya, J. M.
-                (2013). How do autoi<wbr />mmune diseases cluster in families? A
-                systematic review and meta-analysis.
-                <em>BMC medicine, 11</em>(1), 73.
-              </li>
-              <li>
-                Thomas, N. J., Lynam, A. L., Hill, A. V., Weedon, M. N.,
-                Shields, B. M., Oram, R. A., ... & Jones, A. G. (2019). Type 1
-                diabetes defined by severe insulin deficiency occurs after 30
-                years of age and is commonly treated as type 2 diabetes.
-                <em>Diabetologia, 62</em>(7), 1167-1172.
-              </li>
-            </ol>
-            <h2>Image Credits</h2>
-            <ul class="list-unstyled">
-              <li>
-                Unless otherwise indicated, all icons were made by
-                <a
-                  href="https://www.flaticon.com/authors/freepik"
-                  title="Freepik"
-                  >Freepik</a
-                >
-                from
-                <a href="https://www.flaticon.com/" title="Flaticon"
-                  >www.flaticon.com</a
-                >
-              </li>
-            </ul>
-            <p>&nbsp;</p>
+            <form class="mChoice" data-answer="b">
+              <!-- Indicate correct answer in data-answer -->
+
+              <fieldset>
+                <legend>
+                  b. Is it worth suggesting he request more bloodwork to
+                  confirm he does not have type 1 diabetes?
+                </legend>
+
+                <div class="radio">
+                  <label for="t1-or-2-a">
+                    <input type="radio" name="t1-or-2" id="t1-or-2-a" value="a" />
+                    a. No, the evidence is pretty clear: he has type 2
+                    diabetes. Mind your own business.
+                  </label>
+                </div>
+
+                <div class="radio">
+                  <label for="t1-or-2-b">
+                    <input type="radio" name="t1-or-2" id="t1-or-2-b" value="b" />
+                    b. Yes, an immediate relative has an autoimmune disease.
+                    Also, his blood sugars seem to need more help than his
+                    current dose of Metformin is offering.
+                  </label>
+                </div>
+
+                <div class="feedback-correct alert alert-success sr-only">
+                  <p>
+                    <span class="fa fa-check"></span>
+                    <strong>Correct!</strong> Option B is better. Joshua does
+                    have a lot of risk factors related to type 2 diabetes.
+                    However, since he also has the family history of
+                    autoimmune disease (i.e., lupus), it is not unreasonable
+                    for him to request additional testing to confirm there are
+                    no antibodies present. Type 1 diabetes would need to be
+                    managed more aggressively, and it could take years for him
+                    and his doctors to sort out a misdiagnosis. In the
+                    meantime, his health could suffer and he might develop
+                    diabetic complications.
+                  </p>
+                </div>
+                <div class="feedback-incorrect alert alert-danger sr-only">
+                  <p><span class="fa fa-times"></span> Try again.</p>
+                </div>
+              </fieldset>
+            </form>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12">
-        <nav aria-label="Page navigation">
-          <ul class="pagination d-flex justify-content-between">
-            <li class="page-item">
-              <a class="page-link" href="index.html"
-                ><strong>Previous: </strong> <br />Guide</a
-              >
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="mental-health.html"
-                ><strong>Next: </strong><br />2. Mental Health</a
-              >
-            </li>
-          </ul>
-        </nav>
+      <div class="col-sm-8">
+        <h2>Personalize It</h2>
+      </div>
+      <div class="col-sm-4">
+        <img class="img-responsive center" src="media/images/terrace.png" alt="" />
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid">
-      <p class="text-center">
-        Unless otherwise indicated, all material © T1D Social Network. <br />
-        For technical support or questions, email:
-        <a href="mailto:t1dsocialnetwork@gmail.com"
-          >t1dsocialnetwork@gmail.com</a
-        >
-      </p>
-    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p>Think about your family history.</p>
+        <ul>
+          <li>Do you have any relatives with an autoimmune disease?</li>
+          <li>
+            Can you recall the signs and symptoms of diabetes:
+            <ul>
+              <li>excessive thirst</li>
+              <li>frequent urination</li>
+              <li>extreme hunger</li>
+              <li>weight loss</li>
+              <li>fatigue</li>
+              <li>irritability or other behaviour changes</li>
+              <li>fruity-smelling breath</li>
+              <li>blurred vision</li>
+              <li>yeast infection</li>
+            </ul>
+          </li>
+        </ul>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/universal.js"></script>
-  </body>
+        <div class="references dont-break-out">
+          <h2>References</h2>
+          <ol>
+            <li>
+              Rogers, M. A., Kim, C., Banerjee, T., & Lee, J. M. (2017).
+              Fluctuations in the incidence of type 1 diabetes in the United
+              States from 2001 to 2015: a longitudinal study.
+              <em>BMC medicine, 15</em>(1), 199. [incidence graphs]
+            </li>
+            <li>
+              Alhonen, S., Korhonen, S., Tapanainen, P., Knip, M., & Veijola,
+              R. (2011). Extended family history of diabetes and autoimmune
+              diseases in children with and without type 1 diabetes.
+              <em>Diabetes care, 34</em>(1), 115-117.
+            </li>
+            <li>
+              Smith-Marsh, D.E. (n.d.). Type 1 diabetes risk factors.
+              Endocrine Web. Retrieved from:
+              https://www.endocrineweb.com/conditions/type-1-diabetes/type-1-diabetes-risk-factors
+            </li>
+
+            <li>
+              Chiang, J. L., Kirkman, M. S., Laffel, L. M., & Peters, A. L.
+              (2014). Type 1 diabetes through the life span: a position
+              statement of the American Diabetes Association.
+              <em>Diabetes care, 37</em>(7), 2034-2054.
+            </li>
+            <li>
+              Dansinger, M. (2019, September 23). Is Diabetes Genetic? The
+              Hereditary Risk of Type 1 Diabetes. Retrieved from
+              https://www.webmd.com/diabetes/diabetes-type-1-genetics#2
+            </li>
+            <li>
+              Cárdenas-Roldán, J., Rojas-Villarraga, A., & Anaya, J. M.
+              (2013). How do autoi<wbr />mmune diseases cluster in families? A
+                systematic review and meta-analysis.
+              <em>BMC medicine, 11</em>(1), 73.
+            </li>
+            <li>
+              Thomas, N. J., Lynam, A. L., Hill, A. V., Weedon, M. N.,
+              Shields, B. M., Oram, R. A., ... & Jones, A. G. (2019). Type 1
+              diabetes defined by severe insulin deficiency occurs after 30
+              years of age and is commonly treated as type 2 diabetes.
+              <em>Diabetologia, 62</em>(7), 1167-1172.
+            </li>
+          </ol>
+          <h2>Image Credits</h2>
+          <ul class="list-unstyled">
+            <li>
+              Unless otherwise indicated, all icons were made by
+              <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+              from
+              <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <nav aria-label="Page navigation">
+        <ul class="pagination d-flex justify-content-between">
+          <li class="page-item">
+            <a class="page-link" href="index.html"><strong>Previous: </strong> <br />Guide</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="mental-health.html"><strong>Next: </strong><br />2. Mental Health</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid">
+    <p class="text-center">
+      Unless otherwise indicated, all material © T1D Social Network. <br />
+      For technical support or questions, email:
+      <a href="mailto:t1dsocialnetwork@gmail.com">t1dsocialnetwork@gmail.com</a>
+    </p>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/universal.js"></script>
+</body>
+
 </html>
