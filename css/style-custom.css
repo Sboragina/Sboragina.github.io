@@ -90,7 +90,7 @@ position: relative;
   width: 150px;
   position: absolute;
   top:50px;
-  left: 0px;
+  left: -20px;
   background-color: #b1c2eb;
   border-radius: 50%;
   display: inline-block;
@@ -101,7 +101,7 @@ position: relative;
   width: 105px;
   position: absolute;
   top: 72.5px;
-  left: 22.5px;
+  left: 2.5px;
   background-color: #578AD6;
   border-radius: 50%;
   display: inline-block;
@@ -114,7 +114,7 @@ font-size: 2.5rem;
 font-weight:700;
 color: #FFF;
 top: 125px;
-  left: 75px;
+  left: 55px;
   position: absolute;
 transform: translate(-50%, -50%)
 }
