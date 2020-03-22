@@ -2,8 +2,7 @@
 /*	--------------------------------------------------
 Fonts
 -------------------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300,400italic,300italic,700);
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,300);
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Caveat|Lato|Barlow|Questrial|Mansalva|Shadows+Into+Light+Two&display=swap');
 
 /*	--------------------------------------------------
 Colours 
@@ -12,70 +11,79 @@ Colours
 Main Styling
 -------------------------------------------------- */
 * {
-font-family: "Muli", sans-serif;
-font-weight:400;}
+font-family: "Questrial", sans-serif;
+font-weight:300;}
 
 body {
-margin: 0 auto;
-background: #FFF;
-margin-top: 0;
-font-family: "Muli", sans-serif;
-color: #3b3f45;
-font-size: 18px;
-line-height: 25px;
-font-weight: 400;}
+background: #DCDCDC;}
 
 h1, h2, h3, h4, h5, h6 {
-font-family: "Quicksand", sans-serif;
+font-family: "Caveat", cursive;
 font-weight:700;
-color: #1245A8;
+color: #3b3f45;
+}
+
+p, li {
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+line-height: 25px;
+font-weight: 200;
+}
+
+.navbar-brand {
+  font-family: "Caveat", cursive;
+  font-weight:300;
+  color: #3b3f45;
+}
+
+.nav-item {
+  font-family: "Questrial", sans-serif;
+  font-weight:300;
+  color: #3b3f45;
 }
 
 h1 {
-background: #578AD6;
-color: #FFF;
-border-bottom: none;
-padding: 0px 0px 30px 0px;
-margin-bottom: 0px;
-margin-left: 110px;
-font-size: 200%;
+  color: #fff;
+font-size: 400%;
+font-weight: 300;
+margin-bottom: 40px;
 }
 
 h2 {
-border-left: none;
-margin-left: 0px;
-padding: 15px 0px 10px 0px;
-margin-top: 50px;
-margin-bottom: 10px; 
 font-variant: small-caps;
-font-weight: 700; 
-font-size: 150%;}
+font-size: 300%;
+margin-top: 40px;
+margin-bottom: 20px;
+}
 
 h3 {
-border-bottom: none;
-font-size: 115%;
-font-weight: 700;
-margin-top: 30px;
-margin-bottom: 15px;
+font-size: 200%;
 }
 
 h4 {
-  font-size: 105%;
-  margin-top: 20px;
-margin-bottom: 5px;
+  font-size: 150%;
 }
 
 .container {
-background: #f6f9fe;
 max-width: 1170px;
 /* min-width: 540px; */
-padding: 0px 20px 50px 20px;
-border-left: 1px solid #eee;
-border-right: 1px solid #eee;
-border-bottom: 1px solid #eee;
-border-top: 1px solid #eee; 
 margin-left:auto; 
 margin-right:auto;
 margin-top: 0px;
 margin-bottom: 0px;
-overflow: visible;}
+overflow: visible;
+}
+
+.jumbotron {
+  background-color: #3b3f45;
+  color:#fff;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  border-top:5px groove white; 
+  border-bottom:5px groove white;
+}
+
+div.embed-responsive {
+  margin-bottom: 20px;
+}
